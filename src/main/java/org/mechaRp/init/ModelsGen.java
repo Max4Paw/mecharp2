@@ -18,11 +18,21 @@ public class ModelsGen extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.BRONZE_ORE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.SILVER_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.PLATINUM_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.PALLADIUM_ORE_BLOCK);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.BRONZE_ORE_MATERIAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_ORE_MATERIAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_ORE_MATERIAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM_ORE_MATERIAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM_PICKAXE_ITEM, Models.GENERATED);
+
 
         // Регистрация банковских карт с отдельными текстурами (цвет уже встроен в текстуру)
         itemModelGenerator.register(ModItems.BANK_CARD_RED, Models.GENERATED);

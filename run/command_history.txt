@@ -1,14 +1,5 @@
 /gamemode creative
 /gamemode survival
-/gamemode creative\
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
 /gamemode creative
 /gamemode survival
 /gamemode creative
@@ -48,3 +39,12 @@
 /data get entity @s
 /recipe give @p mecharp:bronze_coin_from_smelting
 /give @a mecharp:bank_card_green
+/gamemode survival
+/give @a minecraft:coal 399
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give Player864 mecharp:palladium_pickaxe

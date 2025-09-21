@@ -56,6 +56,25 @@ public class BlockInit {
                     .sounds(BlockSoundGroup.METAL),
             true
     );
+    public static final Block PLATINUM_ORE_BLOCK = register(
+            "platinum_ore",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(1.5f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL),
+            true
+    );
+    public static final Block PALLADIUM_ORE_BLOCK = register(
+            "palladium_ore",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(1.5f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL),
+            true
+    );
+
 
     public static final Block BANK_TERMINAL_BLOCK = register(
             "bank_terminal",

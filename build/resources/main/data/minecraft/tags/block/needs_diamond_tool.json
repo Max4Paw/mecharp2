@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mecharp:silver_ore"
+    "mecharp:silver_ore",
+    "mecharp:palladium_ore"
   ]
 }

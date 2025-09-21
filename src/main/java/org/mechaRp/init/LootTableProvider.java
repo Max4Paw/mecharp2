@@ -15,7 +15,9 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(BlockInit.BRONZE_ORE_BLOCK, oreDrops(BlockInit.BRONZE_ORE_BLOCK, ModItems.BRONZE_ORE_MATERIAL));
-        addDrop(BlockInit.SILVER_ORE_BLOCK, oreDrops(BlockInit.SILVER_ORE_BLOCK, ModItems.SILVER_COIN));
+        addDrop(BlockInit.SILVER_ORE_BLOCK, oreDrops(BlockInit.SILVER_ORE_BLOCK, ModItems.SILVER_ORE_MATERIAL));
+        addDrop(BlockInit.PLATINUM_ORE_BLOCK, oreDrops(BlockInit.PLATINUM_ORE_BLOCK, ModItems.PLATINUM_ORE_MATERIAL));
+        addDrop(BlockInit.PALLADIUM_ORE_BLOCK, oreDrops(BlockInit.PALLADIUM_ORE_BLOCK, ModItems.PALLADIUM_ORE_MATERIAL));
 
     }
 }

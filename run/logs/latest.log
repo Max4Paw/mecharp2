@@ -1,5 +1,5 @@
-[19:37:22] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[19:37:22] [main/INFO] (FabricLoader) Loading 52 mods:
+[00:25:13] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[00:25:13] [main/INFO] (FabricLoader) Loading 52 mods:
 	- fabric-api 0.133.4+1.21.8
 	- fabric-api-base 0.5.0+cd8c0daa2c
 	- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
@@ -52,92 +52,102 @@
 	- mixinextras 0.5.0
 	- modmenu 15.0.0
 	   \-- placeholder-api 2.7.2+1.21.8
-[19:37:26] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/maksi/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[19:37:26] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[19:37:26] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[19:37:28] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[19:37:29] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 618 milliseconds
-[19:37:35] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:37:35] [Render thread/INFO] (Minecraft) Setting user: Player691
-[19:37:35] [Render thread/INFO] (mecharp) === ДЕБАГ ИНФОРМАЦИЯ ===
-[19:37:35] [Render thread/INFO] (mecharp) Проверка регистрации предметов:
-[19:37:35] [Render thread/INFO] (mecharp) bronze_ore_material: true
-[19:37:35] [Render thread/INFO] (mecharp) bronze_coin: true
-[19:37:35] [Render thread/INFO] (mecharp) Проверка рецептов...
-[19:37:35] [Render thread/INFO] (mecharp) Рецепты загружены (детальная проверка требует другого API)
-[19:37:35] [Render thread/INFO] (mecharp) Мод MechaRP загружен!
-[19:37:36] [Render thread/INFO] (Mod Menu/Update Checker) Checking mod updates...
-[19:37:36] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[19:37:36] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
-[19:37:37] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
-[19:37:38] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, mecharp, modmenu, placeholder-api
-[19:37:38] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
-[19:37:38] [Worker-Main-3/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
-[19:37:38] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
-[19:37:39] [Worker-Main-2/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_blue:
+[00:25:18] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/maksi/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[00:25:18] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[00:25:18] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[00:25:20] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[00:25:21] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 632 milliseconds
+[00:25:28] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:25:28] [Render thread/INFO] (Minecraft) Setting user: Player864
+[00:25:28] [Render thread/INFO] (mecharp) === ДЕБАГ ИНФОРМАЦИЯ ===
+[00:25:28] [Render thread/INFO] (mecharp) Проверка регистрации предметов:
+[00:25:28] [Render thread/INFO] (mecharp) bronze_ore_material: true
+[00:25:28] [Render thread/INFO] (mecharp) bronze_coin: true
+[00:25:28] [Render thread/INFO] (mecharp) Проверка рецептов...
+[00:25:28] [Render thread/INFO] (mecharp) Рецепты загружены (детальная проверка требует другого API)
+[00:25:28] [Render thread/INFO] (mecharp) Мод MechaRP загружен!
+[00:25:29] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[00:25:29] [Render thread/INFO] (Mod Menu/Update Checker) Checking mod updates...
+[00:25:29] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[00:25:30] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[00:25:31] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, mecharp, modmenu, placeholder-api
+[00:25:31] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[00:25:31] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[00:25:31] [Worker-Main-9/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/platinum_coin:
+    minecraft:textures/atlas/blocks.png:mecharp:item/platinum_coin
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_blue:
     minecraft:textures/atlas/blocks.png:mecharp:item/bank_card_blue
-[19:37:39] [Worker-Main-2/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_red:
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_red:
     minecraft:textures/atlas/blocks.png:mecharp:item/bank_card_red
-[19:37:39] [Worker-Main-2/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_yellow:
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/palladium_ore_material:
+    minecraft:textures/atlas/blocks.png:mecharp:item/palladium_ore_material
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/palladium_ingot_material:
+    minecraft:textures/atlas/blocks.png:mecharp:item/palladium_ingot_material
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:block/palladium_ore:
+    minecraft:textures/atlas/blocks.png:mecharp:block/palladium_ore
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_yellow:
     minecraft:textures/atlas/blocks.png:mecharp:item/bank_card_yellow
-[19:37:39] [Worker-Main-2/WARN] (Minecraft) Missing model for variant: 'Block{mecharp:bank_terminal}'
-[19:37:39] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
-[19:37:39] [Render thread/INFO] (Minecraft) Sound engine started
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19:37:39] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[19:37:49] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[19:37:50] [Render thread/INFO] (Minecraft) Loaded 1409 recipes
-[19:37:50] [Render thread/INFO] (Minecraft) Loaded 1522 advancements
-[19:37:51] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 1.146 ms
-[19:37:51] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
-[19:37:51] [Server thread/INFO] (Minecraft) Generating keypair
-[19:37:51] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[19:37:52] [Render thread/INFO] (Minecraft) Подготовка области возрождения: 0%
-[19:37:52] [Render thread/INFO] (Minecraft) Подготовка области возрождения: 0%
-[19:37:52] [Render thread/INFO] (Minecraft) Подготовка области возрождения: 0%
-[19:37:52] [Render thread/INFO] (Minecraft) Time elapsed: 1097 ms
-[19:37:52] [Server thread/INFO] (Minecraft) Changing view distance to 2, from 10
-[19:37:52] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[19:37:53] [Server thread/INFO] (Minecraft) Player691[local:E:ae4ed5f0] logged in with entity id 114 at (-6.699999988079071, 85.0, 27.340820749496444)
-[19:37:53] [Server thread/INFO] (Minecraft) Player691 присоединился к игре
-[19:37:53] [Render thread/INFO] (Minecraft) Loaded 2 advancements
-[19:37:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[19:37:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[19:37:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[19:37:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[19:37:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[19:37:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[19:37:54] [Render thread/INFO] (Minecraft) [STDOUT]: Block used at Mutable{x=-8, y=85, z=27}
-[19:37:54] [Render thread/INFO] (Minecraft) [STDOUT]: Client side block use
-[19:37:54] [Server thread/INFO] (Minecraft) [STDOUT]: Block used at BlockPos{x=-8, y=85, z=27}
-[19:37:54] [Server thread/INFO] (Minecraft) [STDOUT]: Opening screen on server side
-[19:37:54] [Server thread/INFO] (Minecraft) [STDOUT]: Screen opened successfully
-[19:38:15] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[19:38:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[19:38:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[19:38:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[19:38:16] [Server thread/INFO] (Minecraft) Player691 lost connection: Отключение
-[19:38:16] [Server thread/INFO] (Minecraft) Player691 покинул игру
-[19:38:16] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[19:38:16] [Server thread/INFO] (Minecraft) Stopping server
-[19:38:16] [Server thread/INFO] (Minecraft) Saving players
-[19:38:16] [Server thread/INFO] (Minecraft) Saving worlds
-[19:38:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[19:38:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[19:38:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[19:38:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Новый мир): All chunks are saved
-[19:38:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:38:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:38:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[19:38:17] [Render thread/INFO] (Minecraft) Stopping!
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/platinum_ore_material:
+    minecraft:textures/atlas/blocks.png:mecharp:item/platinum_ore_material
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/palladium_pickaxe:
+    minecraft:textures/atlas/blocks.png:mecharp:item/palladium_pickaxe
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/palladium:
+    minecraft:textures/atlas/blocks.png:mecharp:item/palladium
+[00:25:32] [Worker-Main-3/WARN] (Minecraft) Missing model for variant: 'Block{mecharp:bank_terminal}'
+[00:25:32] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
+[00:25:32] [Render thread/INFO] (Minecraft) Sound engine started
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[00:25:32] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[00:25:33] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[00:25:33] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[00:25:33] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[00:25:38] [Render thread/INFO] (Minecraft) Loaded 1415 recipes
+[00:25:38] [Render thread/INFO] (Minecraft) Loaded 1528 advancements
+[00:25:38] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 1.579 ms
+[00:25:38] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
+[00:25:38] [Server thread/INFO] (Minecraft) Generating keypair
+[00:25:39] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[00:25:40] [Render thread/INFO] (Minecraft) Подготовка области возрождения: 0%
+[00:25:40] [Render thread/INFO] (Minecraft) Подготовка области возрождения: 0%
+[00:25:40] [Render thread/INFO] (Minecraft) Time elapsed: 1088 ms
+[00:25:40] [Server thread/INFO] (Minecraft) Changing view distance to 2, from 10
+[00:25:40] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[00:25:41] [Server thread/INFO] (Minecraft) Player864[local:E:6ff14252] logged in with entity id 115 at (-7.314455659036711, 86.0, 28.71421578118547)
+[00:25:41] [Server thread/INFO] (Minecraft) Player864 присоединился к игре
+[00:25:41] [Server thread/INFO] (Minecraft) Player864 получил достижение «[И кирка без дела ржавеет]»
+[00:25:41] [Server thread/INFO] (Minecraft) Player864 получил достижение «[Обновка!]»
+[00:25:41] [Render thread/INFO] (Minecraft) [System] [CHAT] Player864 получил достижение «[И кирка без дела ржавеет]»
+[00:25:41] [Render thread/INFO] (Minecraft) [System] [CHAT] Player864 получил достижение «[Обновка!]»
+[00:25:41] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[00:25:41] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[00:25:41] [Render thread/INFO] (Minecraft) Loaded 24 advancements
+[00:25:42] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[00:25:42] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[00:25:42] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[00:25:42] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[00:25:42] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[00:26:14] [Server thread/INFO] (Minecraft) [Player864: Выдано 1 [item.mecharp.palladium_pickaxe] игроку Player864]
+[00:26:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Выдано 1 [item.mecharp.palladium_pickaxe] игроку Player864
+[00:29:04] [Render thread/INFO] (Minecraft) Stopping!
+[00:29:04] [Server thread/INFO] (Minecraft) Player864 lost connection: Отключение
+[00:29:04] [Server thread/INFO] (Minecraft) Player864 покинул игру
+[00:29:04] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[00:29:05] [Server thread/INFO] (Minecraft) Stopping server
+[00:29:05] [Server thread/INFO] (Minecraft) Saving players
+[00:29:05] [Server thread/INFO] (Minecraft) Saving worlds
+[00:29:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[00:29:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[00:29:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[00:29:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Новый мир): All chunks are saved
+[00:29:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:29:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:29:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved

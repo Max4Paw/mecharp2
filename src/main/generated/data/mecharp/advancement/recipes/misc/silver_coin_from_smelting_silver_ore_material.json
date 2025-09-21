@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silver_ore_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:silver_ore_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mecharp:silver_coin_from_smelting_silver_ore_material"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silver_ore_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mecharp:silver_coin_from_smelting_silver_ore_material"
+    ]
+  }
+}

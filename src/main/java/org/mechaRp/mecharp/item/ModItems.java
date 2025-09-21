@@ -21,7 +21,13 @@ public class ModItems {
 
     public static final Item BRONZE_COIN = register("bronze_coin", Item::new, new Item.Settings());
     public static final Item SILVER_COIN = register("silver_coin", Item::new, new Item.Settings());
+    public static final Item PLATINUM_COIN = register("platinum_coin", Item::new, new Item.Settings());
     public static final Item BRONZE_ORE_MATERIAL = register("bronze_ore_material", Item::new, new Item.Settings());
+    public static final Item SILVER_ORE_MATERIAL = register("silver_ore_material", Item::new, new Item.Settings());
+    public static final Item PLATINUM_ORE_MATERIAL = register("platinum_ore_material", Item::new, new Item.Settings());
+    public static final Item PALLADIUM_ORE_MATERIAL = register("palladium_ore_material", Item::new, new Item.Settings());
+    public static final Item PALLADIUM_INGOT = register("palladium_ingot_material", Item::new, new Item.Settings());
+    public static final Item PALLADIUM = register("palladium", Item::new, new Item.Settings());
 
     public static final Item BANK_CARD = register("bank_card", Item::new, new Item.Settings().maxCount(1));
 
@@ -30,6 +36,9 @@ public class ModItems {
     public static final Item BANK_CARD_BLUE = register("bank_card_blue", Item::new, new Item.Settings().maxCount(1));
     public static final Item BANK_CARD_GREEN = register("bank_card_green", Item::new, new Item.Settings().maxCount(1));
     public static final Item BANK_CARD_YELLOW = register("bank_card_yellow", Item::new, new Item.Settings().maxCount(1));
+
+    public static final Item PALLADIUM_PICKAXE_ITEM = register("palladium_pickaxe",Item::new, new Item.Settings().maxCount(1));
+
 
     public static void initialize() {
         // Здесь можно добавить код инициализации, если потребуется

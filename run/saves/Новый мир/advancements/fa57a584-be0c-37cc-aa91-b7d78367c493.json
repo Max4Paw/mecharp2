@@ -47,5 +47,53 @@
     },
     "done": false
   },
+  "mecharp:recipes/misc/bronze_coin_from_blasting_bronze_ore_material": {
+    "criteria": {
+      "has_bronze_ore_material": "2025-09-21 22:40:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-09-21 22:40:26 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_smelting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-09-21 22:40:26 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/platinum_coin_from_blasting_platinum_ore_material": {
+    "criteria": {
+      "has_platinum_ore_material": "2025-09-21 22:40:26 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/bronze_coin_from_smelting_bronze_ore_material": {
+    "criteria": {
+      "has_bronze_ore_material": "2025-09-21 22:40:26 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_blasting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-09-21 22:40:26 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/platinum_coin_from_smelting_platinum_ore_material": {
+    "criteria": {
+      "has_platinum_ore_material": "2025-09-21 22:40:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-09-21 22:40:26 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 4440
 }

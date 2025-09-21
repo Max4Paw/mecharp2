@@ -34,6 +34,13 @@ public class OreBlockGroup {
             entries.add(BlockInit.BRONZE_ORE_BLOCK);
             entries.add(BlockInit.SILVER_ORE_BLOCK);
                 entries.add(ModItems.BRONZE_ORE_MATERIAL);
+                entries.add(ModItems.SILVER_ORE_MATERIAL);
+                entries.add(ModItems.PLATINUM_ORE_MATERIAL);
+            entries.add(BlockInit.PLATINUM_ORE_BLOCK);
+            entries.add(BlockInit.PALLADIUM_ORE_BLOCK);
+            entries.add(ModItems.PALLADIUM_ORE_MATERIAL);
+            entries.add(ModItems.PALLADIUM);
+            entries.add(ModItems.PALLADIUM_INGOT);
 //            // Добавьте другие предметы при необходимости
         });
     }

@@ -33,6 +33,7 @@ public class CoinItemGroup {
         ItemGroupEvents.modifyEntriesEvent(COIN_GROUP_KEY).register(entries -> {
             entries.add(ModItems.BRONZE_COIN);
             entries.add(ModItems.SILVER_COIN);
+            entries.add(ModItems.PLATINUM_COIN);
         });
     }
 }

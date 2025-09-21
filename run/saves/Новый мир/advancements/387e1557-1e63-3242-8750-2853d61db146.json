@@ -1,0 +1,63 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_smelting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_blasting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2025-09-21 22:08:04 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-09-21 22:08:04 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

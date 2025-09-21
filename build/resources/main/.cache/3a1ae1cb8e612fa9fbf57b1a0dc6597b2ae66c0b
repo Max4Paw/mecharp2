@@ -1,3 +1,5 @@
 // 1.21.8	-999999999-01-01T00:00:00	mecharp2/Block Loot Tables
 7ead8483f7f9992e492a69043f6e45feac20e4ef data/mecharp/loot_table/blocks/bronze_ore.json
-53bf106c2342bf74caeb7c291bf73e2055988887 data/mecharp/loot_table/blocks/silver_ore.json
+2a68a73a298dbd0bae3f2ddedaf01182f4bc33b3 data/mecharp/loot_table/blocks/palladium_ore.json
+19355089ff0969317091b83d887883460afcdb34 data/mecharp/loot_table/blocks/platinum_ore.json
+e1822c94a1b9bd4ad8392389c6a1793ff73744aa data/mecharp/loot_table/blocks/silver_ore.json

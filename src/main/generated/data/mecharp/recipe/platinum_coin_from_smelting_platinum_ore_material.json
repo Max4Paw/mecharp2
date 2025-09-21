@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "platinum_coin",
+  "ingredient": "mecharp:platinum_ore_material",
+  "result": {
+    "id": "mecharp:platinum_coin"
+  }
+}
