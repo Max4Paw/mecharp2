@@ -1,5 +1,3 @@
-/give @a mecharp:currency_exchanger
-/give @a mecharp:counter_block
 /gamemode creative
 /gamemode survival
 /gamemode creative\
@@ -48,3 +46,5 @@
 /data get entity @s Recipes 7
 /recipe list @s
 /data get entity @s
+/recipe give @p mecharp:bronze_coin_from_smelting
+/give @a mecharp:bank_card_green

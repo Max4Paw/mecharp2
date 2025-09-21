@@ -1,10 +1,4 @@
 {
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2025-09-21 01:24:22 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2025-09-21 01:24:02 +0300"
@@ -16,6 +10,12 @@
       "minecraft:bamboo_jungle": "2025-09-21 01:24:03 +0300"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-09-21 01:24:22 +0300"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {

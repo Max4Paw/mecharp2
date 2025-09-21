@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
+import net.minecraft.util.Identifier;
 import org.mechaRp.mecharp.Mecharp;
 import org.mechaRp.mecharp.item.ModItems;
 
@@ -19,10 +20,15 @@ public class ModelsGen extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.SILVER_ORE_BLOCK);
     }
 
-
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.BRONZE_ORE_MATERIAL, Models.GENERATED);
+
+        // Регистрация банковских карт с отдельными текстурами (цвет уже встроен в текстуру)
+        itemModelGenerator.register(ModItems.BANK_CARD_RED, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANK_CARD_BLUE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANK_CARD_GREEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANK_CARD_YELLOW, Models.GENERATED);
     }
 
     @Override

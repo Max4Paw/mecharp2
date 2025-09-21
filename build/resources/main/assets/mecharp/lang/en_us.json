@@ -2,5 +2,9 @@
   "item.mecharp.bronze_coin": "bronze coin",
   "item.mecharp.bronze_ore": "bronze ore rp",
   "item.mecharp.silver_coin": "silver coin rp",
-  "itemGroup.coins": "coins"
+  "itemGroup.coins": "coins",
+  "container.mecharp.bank_terminal": "Bank Terminal",
+  "button.mecharp.cancel": "Cancel",
+  "button.mecharp.enter": "Enter",
+  "slot.mecharp.card": "Bank Card Slot"
 }

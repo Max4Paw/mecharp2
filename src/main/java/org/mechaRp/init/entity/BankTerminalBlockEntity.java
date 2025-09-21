@@ -40,6 +40,11 @@ public class BankTerminalBlockEntity extends BlockEntity {
     }
 
     public boolean verifyPin(PlayerEntity player, ItemStack card, String pin) {
+        if (!BankCardItem.getCardNumber(card).equals(currentCardNumber)) {
+            player.sendMessage(Text.translatable("message.mecharp.invalid_card"), false);
+            return false;
+        }
+
         if (System.currentTimeMillis() < cooldownUntil) {
             long remaining = (cooldownUntil - System.currentTimeMillis()) / 1000;
             player.sendMessage(Text.translatable("message.mecharp.cooldown", remaining), false);
@@ -53,7 +58,7 @@ public class BankTerminalBlockEntity extends BlockEntity {
         } else {
             failedAttempts++;
             if (failedAttempts >= 3) {
-                cooldownUntil = System.currentTimeMillis() + 30000; // 30 секунд блокировки
+                cooldownUntil = System.currentTimeMillis() + 30_000; // 30 секунд блокировки
                 player.sendMessage(Text.translatable("message.mecharp.card_temporarily_blocked"), false);
             }
             player.sendMessage(Text.translatable("message.mecharp.pin_incorrect"), false);
@@ -62,11 +67,21 @@ public class BankTerminalBlockEntity extends BlockEntity {
     }
 
     public void checkBalance(PlayerEntity player, ItemStack card) {
+        if (!BankCardItem.getCardNumber(card).equals(currentCardNumber)) {
+            player.sendMessage(Text.translatable("message.mecharp.invalid_card"), false);
+            return;
+        }
+
         long balance = BankCardItem.getBalance(card);
         player.sendMessage(Text.translatable("message.mecharp.balance", balance), false);
     }
 
     public void deposit(PlayerEntity player, ItemStack card, int amount) {
+        if (!BankCardItem.getCardNumber(card).equals(currentCardNumber)) {
+            player.sendMessage(Text.translatable("message.mecharp.invalid_card"), false);
+            return;
+        }
+
         int bronzeCoins = countPlayerCoins(player, ModItems.BRONZE_COIN);
         int silverCoins = countPlayerCoins(player, ModItems.SILVER_COIN);
         int totalCoins = bronzeCoins + (silverCoins * 100);
@@ -83,6 +98,11 @@ public class BankTerminalBlockEntity extends BlockEntity {
     }
 
     public void withdraw(PlayerEntity player, ItemStack card, int amount) {
+        if (!BankCardItem.getCardNumber(card).equals(currentCardNumber)) {
+            player.sendMessage(Text.translatable("message.mecharp.invalid_card"), false);
+            return;
+        }
+
         long balance = BankCardItem.getBalance(card);
 
         if (balance >= amount) {
@@ -118,11 +138,31 @@ public class BankTerminalBlockEntity extends BlockEntity {
     }
 
     private void removeCoins(PlayerEntity player, int amount) {
-        // ... (та же реализация как ранее)
+        for (int i = 0; i < player.getInventory().size(); i++) {
+            ItemStack stack = player.getInventory().getStack(i);
+            if (stack.isOf(ModItems.SILVER_COIN)) {
+                while (amount >= 100 && stack.getCount() > 0) {
+                    stack.decrement(1);
+                    amount -= 100;
+                }
+            } else if (stack.isOf(ModItems.BRONZE_COIN)) {
+                while (amount > 0 && stack.getCount() > 0) {
+                    stack.decrement(1);
+                    amount--;
+                }
+            }
+            if (amount <= 0) break;
+        }
     }
 
     private void giveCoins(PlayerEntity player, int amount) {
-        // ... (та же реализация как ранее)
+        while (amount >= 100) {
+            player.getInventory().insertStack(new ItemStack(ModItems.SILVER_COIN, 1));
+            amount -= 100;
+        }
+        if (amount > 0) {
+            player.getInventory().insertStack(new ItemStack(ModItems.BRONZE_COIN, amount));
+        }
     }
 
     @Override

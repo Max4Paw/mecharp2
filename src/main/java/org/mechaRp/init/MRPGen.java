@@ -10,6 +10,7 @@ public class MRPGen implements DataGeneratorEntrypoint {
         pack.addProvider(ModelsGen::new);
         pack.addProvider(BlockTagsGen::new);
         pack.addProvider(LootTableProvider::new);
+        pack.addProvider(FabricDocsReferenceRecipeProvider::new);
     }
 
 }
