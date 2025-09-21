@@ -1,0 +1,5 @@
+// 1.21.8	-999999999-01-01T00:00:00	mecharp2/FabricDocsReferenceRecipeProvider
+6c0caf6816aec693062c2030378520beea4b0975 data/mecharp/advancement/recipes/misc/bronze_coin_from_blasting_bronze_ore_material.json
+1491188f11d3e67bce2aa84f9bb75359a84fb56b data/mecharp/advancement/recipes/misc/bronze_coin_from_smelting_bronze_ore_material.json
+c3ae60033db38fafec7d7a2e0cc441ed185a626a data/mecharp/recipe/bronze_coin_from_blasting_bronze_ore_material.json
+d241ed553ed6ad5015e3fcf2377762f088630790 data/mecharp/recipe/bronze_coin_from_smelting_bronze_ore_material.json

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "bronze_coin",
+  "ingredient": "mecharp:bronze_ore_material",
+  "result": {
+    "id": "mecharp:bronze_coin"
+  }
+}
