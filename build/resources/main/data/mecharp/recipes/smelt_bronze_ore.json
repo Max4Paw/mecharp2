@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "mecharp:bronze_ore_material"
+  },
+  "result": {
+    "count": 1,
+    "id": "mecharp:bronze_coin"
+  }
+}

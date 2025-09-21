@@ -1,0 +1,9 @@
+// 1.21.8	-999999999-01-01T00:00:00	mecharp2/FabricDocsReference Model Provider
+379eef6a3ac029531fddfc3e54f92321e8083219 assets/mecharp/blockstates/bronze_ore.json
+0242c06222dfc8a0d224961a429688b48fcc67c1 assets/mecharp/blockstates/silver_ore.json
+2bff2df1e6039da3ce5f24db467354cbcd9659a0 assets/mecharp/items/bronze_ore.json
+e3ba9f0291fb5fbd2b68a6b8a09b2290e46dc2f9 assets/mecharp/items/bronze_ore_material.json
+37db73c2f282bfb2021714b73a99248e6a8e396e assets/mecharp/items/silver_ore.json
+2a2c44f450e5ed3434f7df7b23e2896bd95574ad assets/mecharp/models/block/bronze_ore.json
+d89b2c83231193e0e692eef532ff31225a0ecb67 assets/mecharp/models/block/silver_ore.json
+1e8661861b8ddeb68dd306cb32e747559995ca08 assets/mecharp/models/item/bronze_ore_material.json

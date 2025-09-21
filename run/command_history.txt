@@ -1,0 +1,50 @@
+/give @a mecharp:currency_exchanger
+/give @a mecharp:counter_block
+/gamemode creative
+/gamemode survival
+/gamemode creative\
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @a mecharp:bronze_coin 1000
+/give @a mecharp:counter_block
+/give @a mecharp:bronze_coin 1000
+/give @a mecharp:counter_block
+/give @a mecharp:bank_terminal
+/give @a minecraft:furnace
+/give @a minecraft:coal
+/gamemode creative
+/recipe take @a
+/recipe give @p bronze
+/recipe give @p mecharp:bronze_coin_from_smelting
+/
+/recipe give @p mecharp:bronze_coin_from_smelting
+/recipe
+/recipe give @p mecharp:bronze_coin_from_smelting
+/recipe give @s mecharp:bronze_coin_from_smelting
+/data get entity @s Recipes
+/data get entity @s Recipes 1
+/data get entity @s Recipes 7
+/recipe list @s
+/data get entity @s
