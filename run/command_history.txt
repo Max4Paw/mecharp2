@@ -10,12 +10,6 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
 /give @a mecharp:bronze_coin 1000
 /give @a mecharp:counter_block
 /give @a mecharp:bronze_coin 1000
@@ -48,3 +42,9 @@
 /gamemode creative
 /gamemode survival
 /give Player864 mecharp:palladium_pickaxe
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival

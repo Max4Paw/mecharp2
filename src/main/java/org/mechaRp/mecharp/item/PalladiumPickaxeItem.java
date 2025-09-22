@@ -1,16 +1,11 @@
-package org.mechaRp.mecharp.item;
-
-import net.minecraft.item.Item;
-
-public class PalladiumPickaxeItem extends Item {
-    private final ModToolMaterials material;
-
-    public PalladiumPickaxeItem(ModToolMaterials material, Settings settings) {
-        super(settings);
-        this.material = material;
-    }
-
-    public ModToolMaterials getMaterial() {
-        return material;
-    }
-}
+//package org.mechaRp.mecharp.item;
+//
+//import net.minecraft.item.Item;
+//
+//public class PalladiumPickaxeItem extends Item {
+//    public PalladiumPickaxeItem(Settings settings) {
+//        super(settings.maxDamage(2500)); // Прочность инструмента
+//    }
+//
+//
+//}

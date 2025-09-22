@@ -18,6 +18,10 @@ public class ModItems {
         Registry.register(Registries.ITEM, itemKey, item);
         return item;
     }
+    private static Item register(String name, Item item) {
+        Identifier id = Identifier.of(Mecharp.MOD_ID, name);
+        return Registry.register(Registries.ITEM, id, item);
+    }
 
     public static final Item BRONZE_COIN = register("bronze_coin", Item::new, new Item.Settings());
     public static final Item SILVER_COIN = register("silver_coin", Item::new, new Item.Settings());
@@ -29,7 +33,7 @@ public class ModItems {
     public static final Item PALLADIUM_INGOT = register("palladium_ingot_material", Item::new, new Item.Settings());
     public static final Item PALLADIUM = register("palladium", Item::new, new Item.Settings());
 
-    public static final Item BANK_CARD = register("bank_card", Item::new, new Item.Settings().maxCount(1));
+   // public static final Item BANK_CARD = register("bank_card", Item::new, new Item.Settings().maxCount(1));
 
     // Цветные банковские карты
     public static final Item BANK_CARD_RED = register("bank_card_red", Item::new, new Item.Settings().maxCount(1));
@@ -37,7 +41,8 @@ public class ModItems {
     public static final Item BANK_CARD_GREEN = register("bank_card_green", Item::new, new Item.Settings().maxCount(1));
     public static final Item BANK_CARD_YELLOW = register("bank_card_yellow", Item::new, new Item.Settings().maxCount(1));
 
-    public static final Item PALLADIUM_PICKAXE_ITEM = register("palladium_pickaxe",Item::new, new Item.Settings().maxCount(1));
+    public static final Item PALLADIUM_PICKAXE = register("palladium_pickaxe",Item::new, new Item.Settings().maxDamage(5000).maxCount(1).pickaxe(CustomToolMaterial.CUSTOM_MATERIAL,2.0F,9.0F).enchantable(12));
+
 
 
     public static void initialize() {

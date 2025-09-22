@@ -31,7 +31,7 @@ public class ModelsGen extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PALLADIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.PALLADIUM_ORE_MATERIAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.PALLADIUM_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PALLADIUM_PICKAXE_ITEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM_PICKAXE, Models.GENERATED);
 
 
         // Регистрация банковских карт с отдельными текстурами (цвет уже встроен в текстуру)
