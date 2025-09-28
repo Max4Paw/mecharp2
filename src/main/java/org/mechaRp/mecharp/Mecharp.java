@@ -12,6 +12,7 @@ import org.mechaRp.init.BlockInit;
 import org.mechaRp.init.entity.screen.BankTerminalScreenHandlers;
 import org.mechaRp.mecharp.groups.CoinItemGroup;
 import org.mechaRp.mecharp.groups.OreBlockGroup;
+import org.mechaRp.mecharp.groups.ToolItemGroup;
 import org.mechaRp.mecharp.item.BankCardItem;
 import org.mechaRp.mecharp.item.ModItems;
 import org.mechaRp.mecharp.item.MyDataComponents;
@@ -36,6 +37,7 @@ public class Mecharp implements ModInitializer {
         BlockInit.registerBlocks();
         CoinItemGroup.registerItemGroups();
         OreBlockGroup.registerBlockGroup();
+        ToolItemGroup.registerToolItemGroups();
         BankTerminalScreenHandlers.registerScreenHandlers();
         registerCommands();
 

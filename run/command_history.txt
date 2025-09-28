@@ -8,8 +8,6 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
-/gamemode creative
-/gamemode survival
 /give @a mecharp:bronze_coin 1000
 /give @a mecharp:counter_block
 /give @a mecharp:bronze_coin 1000
@@ -48,3 +46,5 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/give @a mecharp:bank_terminal
+/give @a mecharp:bank_card_green

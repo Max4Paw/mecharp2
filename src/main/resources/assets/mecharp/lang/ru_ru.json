@@ -1,6 +1,24 @@
 {
-  "item.mecharp.bronze_coin": "медная монета",
-  "item.mecharp.bronze_ore": "бронзовая руда рп",
-  "item.mecharp.silver_coin": "серебрянная монета",
-  "itemGroup.coins": "монеты"
+
+  "item.mecharp.bronze_coin": "Бронзовая монета",
+  "item.mecharp.silver_coin": "Серебряная монета",
+  "itemGroup.coins": "монеты",
+  "item.mecharp.platinum_coin": "Платиновая монета",
+  "item.mecharp.bronze_ore_material": "Материал бронзовой руды",
+  "item.mecharp.silver_ore_material": "Материал серебряной руды",
+  "item.mecharp.platinum_ore_material": "Материал платиновой руды",
+  "item.mecharp.palladium_ore_material": "Материал палладиевой руды",
+  "item.mecharp.palladium_ingot_material": "Палладиевый слиток",
+  "item.mecharp.palladium": "Палладий",
+  "item.mecharp.bank_card_red": "Красная банковская карта",
+  "item.mecharp.bank_card_blue": "Синяя банковская карта",
+  "item.mecharp.bank_card_green": "Зеленая банковская карта",
+  "item.mecharp.bank_card_yellow": "Желтая банковская карта",
+  "item.mecharp.palladium_pickaxe": "Палладиевая кирка",
+
+  "item.mecharp.bronze_ore": "Бронзовая руда",
+  "item.mecharp.silver_ore": "Серебряная руда",
+  "item.mecharp.platinum_ore": "Платиновая руда",
+  "item.mecharp.palladium_ore": "Палладиевая руда",
+  "item.mecharp.bank_terminal": "Банковский терминал"
 }
