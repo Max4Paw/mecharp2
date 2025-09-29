@@ -17,7 +17,7 @@
       "org.mechaRp.mecharp.Mecharp"
     ],
     "fabric-datagen": [
-      "org.mechaRp.init.MRPGen"
+      "org.mechaRp.mecharp.datagen.MRPGen"
     ]
   },
   "mixins": [

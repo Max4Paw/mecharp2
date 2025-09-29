@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import net.minecraft.registry.Registries;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.text.Text;
@@ -16,6 +18,10 @@ import org.mechaRp.mecharp.groups.ToolItemGroup;
 import org.mechaRp.mecharp.item.BankCardItem;
 import org.mechaRp.mecharp.item.ModItems;
 import org.mechaRp.mecharp.item.MyDataComponents;
+import org.mechaRp.mecharp.world.ModConfiguredFeatures;
+import org.mechaRp.mecharp.world.ModOreGeneration;
+import org.mechaRp.mecharp.world.ModPlacedFeatures;
+import org.mechaRp.mecharp.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -38,6 +44,8 @@ public class Mecharp implements ModInitializer {
         CoinItemGroup.registerItemGroups();
         OreBlockGroup.registerBlockGroup();
         ToolItemGroup.registerToolItemGroups();
+        ModWorldGeneration.generateModWorldGen();
+        ModOreGeneration.generateOres();
         BankTerminalScreenHandlers.registerScreenHandlers();
         registerCommands();
 
@@ -54,6 +62,10 @@ public class Mecharp implements ModInitializer {
         LOGGER.info("Рецепты загружены (детальная проверка требует другого API)");
 
         LOGGER.info("Мод MechaRP загружен!");
+    }
+    public void buildRegistry(RegistryBuilder registryBuilder) {
+        registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+        registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
     }
 
     private void registerCommands() {

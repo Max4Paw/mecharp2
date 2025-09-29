@@ -41,6 +41,11 @@ public class OreBlockGroup {
             entries.add(ModItems.PALLADIUM_ORE_MATERIAL);
             entries.add(ModItems.PALLADIUM);
             entries.add(ModItems.PALLADIUM_INGOT);
+            entries.add(BlockInit.DEEPSLATE_PLATINUM_ORE_BLOCK);
+            entries.add(BlockInit.DEEPSLATE_PALLADIUM_ORE_BLOCK);
+            entries.add(BlockInit.DEEPSLATE_BRONZE_ORE_BLOCK);
+            entries.add(BlockInit.DEEPSLATE_SILVER_ORE_BLOCK);
+           // entries.add(BlockInit.);
 //            // Добавьте другие предметы при необходимости
         });
     }

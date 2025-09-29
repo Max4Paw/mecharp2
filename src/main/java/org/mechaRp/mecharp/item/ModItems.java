@@ -35,6 +35,7 @@ public class ModItems {
 
    // public static final Item BANK_CARD = register("bank_card", Item::new, new Item.Settings().maxCount(1));
 
+
     // Цветные банковские карты
     public static final Item BANK_CARD_RED = register("bank_card_red", Item::new, new Item.Settings().maxCount(1));
     public static final Item BANK_CARD_BLUE = register("bank_card_blue", Item::new, new Item.Settings().maxCount(1));

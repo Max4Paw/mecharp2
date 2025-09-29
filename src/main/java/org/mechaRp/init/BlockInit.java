@@ -46,9 +46,26 @@ public class BlockInit {
                     .sounds(BlockSoundGroup.METAL),
             true
     );
-
+    public static final Block DEEPSLATE_BRONZE_ORE_BLOCK = register(
+            "deepslate_bronze_ore",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(1.5f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL),
+            true
+    );
     public static final Block SILVER_ORE_BLOCK = register(
             "silver_ore",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(1.5f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL),
+            true
+    );
+    public static final Block DEEPSLATE_SILVER_ORE_BLOCK = register(
+            "deepslate_silver_ore",
             Block::new,
             AbstractBlock.Settings.create()
                     .strength(1.5f, 6.0f)
@@ -65,8 +82,26 @@ public class BlockInit {
                     .sounds(BlockSoundGroup.METAL),
             true
     );
+    public static final Block DEEPSLATE_PLATINUM_ORE_BLOCK = register(
+            "deepslate_platinum_ore",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(1.5f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL),
+            true
+    );
     public static final Block PALLADIUM_ORE_BLOCK = register(
             "palladium_ore",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(1.5f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL),
+            true
+    );
+    public static final Block DEEPSLATE_PALLADIUM_ORE_BLOCK = register(
+            "deepslate_palladium_ore",
             Block::new,
             AbstractBlock.Settings.create()
                     .strength(1.5f, 6.0f)
