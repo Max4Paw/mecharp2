@@ -109,6 +109,15 @@ public class BlockInit {
                     .sounds(BlockSoundGroup.METAL),
             true
     );
+    public static final Block MAGMARIUM_ORE_BLOCK = register(
+            "magmarium_ore",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(2.5f, 10.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL),
+            true
+    );
 
 
     public static final Block BANK_TERMINAL_BLOCK = register(

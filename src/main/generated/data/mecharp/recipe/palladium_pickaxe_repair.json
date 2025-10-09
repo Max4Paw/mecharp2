@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "mecharp:palladium_pickaxe",
+    "mecharp:palladium_pickaxe"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mecharp:palladium_pickaxe"
+  }
+}

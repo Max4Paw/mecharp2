@@ -1,9 +1,0 @@
-// 1.21.8	-999999999-01-01T00:00:00	mecharp2/mecharp Dynamic Registry Data
-a76e607f5828849340138e08ee4a6f1809da0480 data/mecharp/worldgen/configured_feature/bronze_ore.json
-f19f8bb887a8a5597e981ba604d8025e77508d73 data/mecharp/worldgen/configured_feature/palladium_ore.json
-000f448d5dffa16e92c1d78213f13b741c421dfe data/mecharp/worldgen/configured_feature/platinum_ore.json
-c3d03508220367c6f9643279d60ee291b4de41d3 data/mecharp/worldgen/configured_feature/silver_ore.json
-4e978e23e4785b5d34aaf32cfa4a602c88bb786c data/mecharp/worldgen/placed_feature/bronze_ore_placed.json
-5a98f38316b5ac668beb84405ec982c7dbb57938 data/mecharp/worldgen/placed_feature/palladium_ore_placed.json
-27d430e77dbddde548b3d041261476c58cc03e65 data/mecharp/worldgen/placed_feature/platinum_ore_placed.json
-7defbdef86ac33a355f3f6e831c423065571a4bb data/mecharp/worldgen/placed_feature/silver_ore_placed.json

@@ -33,5 +33,6 @@
   "item.mecharp.deepslate_platinum_ore": "deepslate platinum ore rp",
   "item.mecharp.deepslate_silver_ore": "deepslate silver ore rp",
   "item.mecharp.deepslate_palladium_ore": "deepslate Palladium Ore",
-  "item.mecharp.deepslate_bronze_ore": "deepslate bronze ore rp"
+  "item.mecharp.deepslate_bronze_ore": "deepslate bronze ore rp",
+  "itemGroup.ore_group": "ores"
 }

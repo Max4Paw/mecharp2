@@ -52,7 +52,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/FullBright 1.21.X.zip"]
+resourcePacks:["vanilla","fabric","file/FullBright 1.21.X.zip","file/Xray_Ultimate_1.21_v5.2.2 (1).zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
@@ -81,7 +81,7 @@ rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true

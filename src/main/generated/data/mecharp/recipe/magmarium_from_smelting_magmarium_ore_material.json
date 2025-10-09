@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 6000,
+  "experience": 1.7,
+  "group": "magmarium",
+  "ingredient": "mecharp:magmarium_ore_material",
+  "result": {
+    "id": "mecharp:magmarium"
+  }
+}

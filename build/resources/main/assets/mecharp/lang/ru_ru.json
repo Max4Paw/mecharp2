@@ -21,8 +21,9 @@
   "item.mecharp.platinum_ore": "Платиновая руда",
   "item.mecharp.palladium_ore": "Палладиевая руда",
   "item.mecharp.bank_terminal": "Банковский терминал",
-  "item.mecharp.deepslate_platinum_ore": "глубиносланцевая платиновая руда рп",
-  "item.mecharp.deepslate_silver_ore": "глубиносланцевая серебренная руда рп",
-  "item.mecharp.deepslate_palladium_ore": "глубиносланцевая паладиевая руда",
-  "item.mecharp.deepslate_bronze_ore": "глубиносланцевая бронзовая руда"
+  "item.mecharp.deepslate_platinum_ore": "глубинносланцевая платиновая руда рп",
+  "item.mecharp.deepslate_silver_ore": "глубинносланцевая серебренная руда рп",
+  "item.mecharp.deepslate_palladium_ore": "глубинносланцевая паладиевая руда",
+  "item.mecharp.deepslate_bronze_ore": "глубинносланцевая бронзовая руда рп",
+  "itemGroup.ore_group": "руды"
 }

@@ -24,7 +24,7 @@ public class OreBlockGroup {
             Registries.ITEM_GROUP,
             BLOCK_GROUP_KEY.getValue(),
             ItemGroup.create(ItemGroup.Row.TOP, 1) // ← column = 1, чтобы не перекрывать coin_group
-                    .displayName(Text.literal("Ores"))
+                    .displayName(Text.translatable("itemGroup.ore_group"))
                     .icon(() -> new ItemStack(BlockInit.BRONZE_ORE_BLOCK))
                     .build()
     );
@@ -45,6 +45,10 @@ public class OreBlockGroup {
             entries.add(BlockInit.DEEPSLATE_PALLADIUM_ORE_BLOCK);
             entries.add(BlockInit.DEEPSLATE_BRONZE_ORE_BLOCK);
             entries.add(BlockInit.DEEPSLATE_SILVER_ORE_BLOCK);
+            entries.add(BlockInit.MAGMARIUM_ORE_BLOCK);
+            entries.add(ModItems.MAGMARIUM);
+            entries.add(ModItems.MAGMARIUM_ORE_MATERIAL
+            );
            // entries.add(BlockInit.);
 //            // Добавьте другие предметы при необходимости
         });

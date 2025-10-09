@@ -65,6 +65,10 @@ public class BankCardItem extends Item {
         return null;
     }
     public static void setPinCode(ItemStack stack, String pin) {
-        setPinCode(stack, pin); // Алиас для совместимости
+        // У владельца тут можно передавать null или фиктивного игрока,
+        // если тебе не нужен PlayerEntity для этой операции
+        NbtCompound nbt = new NbtCompound();
+        nbt.putString("Pin", pin);
+        stack.set(DataComponentTypes.CUSTOM_DATA, NbtComponent.of(nbt));
     }
 }

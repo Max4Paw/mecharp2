@@ -27,11 +27,14 @@ public class ModConfiguredFeatures {
             registryKey("platinum_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> PALLADIUM_ORE =
             registryKey("palladium_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MAGMARIUM_ORE =
+            RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(Mecharp.MOD_ID, "magmarium_ore"));
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         // Определяем RuleTest для замещения
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest netherrackReplacebles = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
 
         // Bronze
         register(context, BRONZE_ORE, Feature.ORE,
@@ -74,6 +77,15 @@ public class ModConfiguredFeatures {
                                 OreFeatureConfig.createTarget(deepslateReplaceables, BlockInit.DEEPSLATE_PALLADIUM_ORE_BLOCK.getDefaultState())
                         ),
                         4
+                )
+        );
+        register( context, MAGMARIUM_ORE,  Feature.ORE,
+                new OreFeatureConfig(
+                        List.of(
+                                OreFeatureConfig.createTarget(netherrackReplacebles, BlockInit.MAGMARIUM_ORE_BLOCK.getDefaultState())
+
+                        ),
+                        6
                 )
         );
     }

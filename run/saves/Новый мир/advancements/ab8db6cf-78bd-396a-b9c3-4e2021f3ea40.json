@@ -125,12 +125,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:bamboo_jungle": "2025-09-25 22:25:39 +0300"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2025-09-25 22:25:38 +0300"
@@ -140,6 +134,42 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-09-25 22:25:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2025-09-25 22:25:39 +0300"
+    },
+    "done": false
+  },
+  "mecharp:recipes/misc/palladium_from_blasting_palladium_ore_material": {
+    "criteria": {
+      "has_palladium_ore_material": "2025-09-29 06:33:09 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium": {
+    "criteria": {
+      "has_palladium_ingot": "2025-09-29 06:33:09 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_ingot_material": {
+    "criteria": {
+      "has_palladium": "2025-09-29 06:33:09 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_from_smelting_palladium_ore_material": {
+    "criteria": {
+      "has_palladium_ore_material": "2025-09-29 06:33:09 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/tools/palladium_pickaxe_repair": {
+    "criteria": {
+      "has_palladium_pickaxe": "2025-09-29 06:33:09 +0300"
     },
     "done": true
   },

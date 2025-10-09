@@ -39,6 +39,12 @@ public class ModOreGeneration {
                 ModPlacedFeatures.PALLADIUM_ORE_PLACED
         );
         LOGGER.info("[MechaRP] Руда PALLADIUM добавлена в биомы!");
+        BiomeModifications.addFeature(
+                BiomeSelectors.foundInTheNether(),
+                GenerationStep.Feature.UNDERGROUND_ORES,
+                ModPlacedFeatures.MAGMARIUM_ORE_PLACED
+        );
+        LOGGER.info("[MechaRP] Руда MAGMARIUM добавлена в биомы!");
 
         LOGGER.info("[MechaRP] === Генерация руд завершена ===");
     }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magmarium_ore_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:magmarium_ore_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mecharp:magmarium_from_smelting_magmarium_ore_material"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magmarium_ore_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mecharp:magmarium_from_smelting_magmarium_ore_material"
+    ]
+  }
+}

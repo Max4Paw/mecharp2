@@ -19,6 +19,11 @@ public class ModelsGen extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.SILVER_ORE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.PLATINUM_ORE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.PALLADIUM_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.DEEPSLATE_BRONZE_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.DEEPSLATE_SILVER_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.DEEPSLATE_PLATINUM_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.DEEPSLATE_PALLADIUM_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.MAGMARIUM_ORE_BLOCK);
     }
 
     @Override
@@ -31,6 +36,14 @@ public class ModelsGen extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PALLADIUM_ORE_MATERIAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.PALLADIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.PALLADIUM_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PALLADIUM_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGMARIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGMARIUM_ORE_MATERIAL, Models.GENERATED);
+        // регистрация брони магмы
+        itemModelGenerator.register(ModItems.MAGMARIUM_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGMARIUM_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGMARIUM_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGMARIUM_CHESTPLATE, Models.GENERATED);
 
 
         // Регистрация банковских карт с отдельными текстурами (цвет уже встроен в текстуру)

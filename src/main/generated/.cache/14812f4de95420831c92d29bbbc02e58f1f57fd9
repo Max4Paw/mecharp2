@@ -1,0 +1,10 @@
+// 1.21.8	-999999999-01-01T00:00:00	RevivalRp/Block Loot Tables
+7ead8483f7f9992e492a69043f6e45feac20e4ef data/mecharp/loot_table/blocks/bronze_ore.json
+fffd5e42ba259f38c56f3e0fe8df92d78e77b34d data/mecharp/loot_table/blocks/deepslate_bronze_ore.json
+df5ff8d2e278ab7daf0e54b382e8ac2faa88bf1b data/mecharp/loot_table/blocks/deepslate_palladium_ore.json
+b116a2749eb8e6be0b041e3870e2aa3a7f1536b6 data/mecharp/loot_table/blocks/deepslate_platinum_ore.json
+35d27542dcbb3bab42193fe14a50673660c3d359 data/mecharp/loot_table/blocks/deepslate_silver_ore.json
+82c8c6f005fc9cefd6fc3b145ac91fae17c7e02c data/mecharp/loot_table/blocks/magmarium_ore.json
+2a68a73a298dbd0bae3f2ddedaf01182f4bc33b3 data/mecharp/loot_table/blocks/palladium_ore.json
+19355089ff0969317091b83d887883460afcdb34 data/mecharp/loot_table/blocks/platinum_ore.json
+e1822c94a1b9bd4ad8392389c6a1793ff73744aa data/mecharp/loot_table/blocks/silver_ore.json

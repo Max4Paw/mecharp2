@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "mecharp:silver_ore",
-    "mecharp:palladium_ore"
+    "mecharp:palladium_ore",
+    "mecharp:deepslate_silver_ore",
+    "mecharp:deepslate_palladium_ore"
   ]
 }

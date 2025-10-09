@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_palladium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:palladium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mecharp:palladium_pickaxe_repair"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_palladium_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mecharp:palladium_pickaxe_repair"
+    ]
+  }
+}

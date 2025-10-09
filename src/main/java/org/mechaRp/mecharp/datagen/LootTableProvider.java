@@ -23,6 +23,7 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
         addDrop(BlockInit.DEEPSLATE_PLATINUM_ORE_BLOCK, oreDrops(BlockInit.DEEPSLATE_PLATINUM_ORE_BLOCK, ModItems.PLATINUM_ORE_MATERIAL));
         addDrop(BlockInit.DEEPSLATE_SILVER_ORE_BLOCK, oreDrops(BlockInit.DEEPSLATE_SILVER_ORE_BLOCK, ModItems.SILVER_ORE_MATERIAL));
         addDrop(BlockInit.DEEPSLATE_BRONZE_ORE_BLOCK, oreDrops(BlockInit.DEEPSLATE_BRONZE_ORE_BLOCK, ModItems.BRONZE_ORE_MATERIAL));
+        addDrop(BlockInit.MAGMARIUM_ORE_BLOCK, oreDrops(BlockInit.MAGMARIUM_ORE_BLOCK, ModItems.MAGMARIUM_ORE_MATERIAL));
 
     }
 }

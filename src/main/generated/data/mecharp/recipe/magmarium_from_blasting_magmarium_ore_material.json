@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 4800,
+  "experience": 1.7,
+  "group": "magmarium",
+  "ingredient": "mecharp:magmarium_ore_material",
+  "result": {
+    "id": "mecharp:magmarium"
+  }
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mecharp:platinum_ore"
+    "mecharp:platinum_ore",
+    "mecharp:deepslate_platinum_ore"
   ]
 }

@@ -1,0 +1,177 @@
+{
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_from_blasting_palladium_ore_material": {
+    "criteria": {
+      "has_palladium_ore_material": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/bronze_coin_from_blasting_bronze_ore_material": {
+    "criteria": {
+      "has_bronze_ore_material": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/tools/palladium_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium": {
+    "criteria": {
+      "has_palladium_ingot": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_smelting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/platinum_coin_from_blasting_platinum_ore_material": {
+    "criteria": {
+      "has_platinum_ore_material": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/bronze_coin_from_smelting_bronze_ore_material": {
+    "criteria": {
+      "has_bronze_ore_material": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_blasting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/platinum_coin_from_smelting_platinum_ore_material": {
+    "criteria": {
+      "has_platinum_ore_material": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_ingot_material": {
+    "criteria": {
+      "has_palladium": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_from_smelting_palladium_ore_material": {
+    "criteria": {
+      "has_palladium_ore_material": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/tools/palladium_pickaxe_repair": {
+    "criteria": {
+      "has_palladium_pickaxe": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2025-09-29 06:30:49 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-09-29 06:30:49 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

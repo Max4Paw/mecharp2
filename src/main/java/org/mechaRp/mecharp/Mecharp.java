@@ -12,6 +12,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.mechaRp.init.BlockInit;
 import org.mechaRp.init.entity.screen.BankTerminalScreenHandlers;
+import org.mechaRp.mecharp.groups.ArmorGroup;
 import org.mechaRp.mecharp.groups.CoinItemGroup;
 import org.mechaRp.mecharp.groups.OreBlockGroup;
 import org.mechaRp.mecharp.groups.ToolItemGroup;
@@ -44,6 +45,7 @@ public class Mecharp implements ModInitializer {
         CoinItemGroup.registerItemGroups();
         OreBlockGroup.registerBlockGroup();
         ToolItemGroup.registerToolItemGroups();
+        ArmorGroup.registerArmorGroups();
         ModWorldGeneration.generateModWorldGen();
         ModOreGeneration.generateOres();
         BankTerminalScreenHandlers.registerScreenHandlers();

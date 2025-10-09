@@ -12,6 +12,9 @@ base {
 
 
 repositories {
+    maven { url = "https://maven.fabricmc.net/" }
+     // иногда помогает
+    mavenCentral()
     // Add repositories to retrieve artifacts from in here.
     // You should only use this when depending on other mods because
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
@@ -25,7 +28,7 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    include "net.fabricmc.fabric-api:fabric-screen-handler-api-v1:${project.fabric_version}"
+    
 }
 
 

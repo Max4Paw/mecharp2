@@ -4,6 +4,10 @@
     "mecharp:bronze_ore",
     "mecharp:silver_ore",
     "mecharp:platinum_ore",
-    "mecharp:palladium_ore"
+    "mecharp:palladium_ore",
+    "mecharp:deepslate_bronze_ore",
+    "mecharp:deepslate_silver_ore",
+    "mecharp:deepslate_platinum_ore",
+    "mecharp:deepslate_palladium_ore"
   ]
 }
