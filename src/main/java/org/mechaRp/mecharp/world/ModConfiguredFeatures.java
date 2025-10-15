@@ -29,6 +29,7 @@ public class ModConfiguredFeatures {
             registryKey("palladium_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MAGMARIUM_ORE =
             RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(Mecharp.MOD_ID, "magmarium_ore"));
+    public static final RegistryKey<ConfiguredFeature<?, ?>> LESHY_ALTAR = registryKey("leshy_altar");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         // Определяем RuleTest для замещения
@@ -88,6 +89,10 @@ public class ModConfiguredFeatures {
                         6
                 )
         );
+
+        register(context, LESHY_ALTAR, ModFeatures.LESHY_ALTAR_FEATURE,
+                new LeshyAltarFeatureConfig(12) // радиус поиска места
+        );
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {
@@ -102,4 +107,6 @@ public class ModConfiguredFeatures {
     ) {
         context.register(key, new ConfiguredFeature<>(feature, configuration));
     }
+
+
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mecharp:item/a_fragment_of_the_earth"
+  }
+}

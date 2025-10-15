@@ -15,7 +15,7 @@ public class PalladiumSwordMaterial {
 
     // Тег для починки
     public static final TagKey<Item> REPAIR_PALLADIUM =
-            TagKey.of(RegistryKeys.ITEM,  Identifier.of(Mecharp.MOD_ID, "palladium_ingot"));
+            TagKey.of(RegistryKeys.ITEM,  Identifier.of(Mecharp.MOD_ID, "palladium"));
 
     // ✅ Создаём ToolMaterial корректно для 1.21.8
     public static final ToolMaterial PALLADIUM = new ToolMaterial(
@@ -27,6 +27,6 @@ public class PalladiumSwordMaterial {
             REPAIR_PALLADIUM // Предмет для починки
     );
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.PALLADIUM_INGOT);
+        return Ingredient.ofItems(ModItems.PALLADIUM);
     }
 }

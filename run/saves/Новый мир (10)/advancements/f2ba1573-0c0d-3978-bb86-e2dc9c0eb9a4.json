@@ -1,0 +1,135 @@
+{
+  "minecraft:recipes/building_blocks/stripped_mangrove_wood": {
+    "criteria": {
+      "has_log": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_planks": {
+    "criteria": {
+      "has_logs": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-10-11 03:03:25 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2025-10-11 03:03:24 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

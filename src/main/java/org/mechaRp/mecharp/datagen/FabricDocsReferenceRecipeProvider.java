@@ -7,6 +7,7 @@ import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.data.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+//import net.minecraft.item.Items;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.Registries;
@@ -59,6 +60,14 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
                         .input('S', Items.STICK)
                         .criterion("has_stick", conditionsFromItem(Items.STICK))
                         .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.PALLADIUM_HAMMER)
+                        .pattern("PPP")
+                        .pattern("PSP")
+                        .pattern(" S ")
+                        .input('P', ModItems.PALLADIUM)
+                        .input('S', Items.STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
 
                 ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.PALLADIUM_SWORD)
                         .pattern(" P ")
@@ -89,33 +98,37 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
 
                 ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.MAGMARIUM_BOOTS)
                         .pattern("   ")
-                        .pattern("M M")
+                        .pattern("MNM")
                         .pattern("M M")
                         .input('M', ModItems.MAGMARIUM)
+                        .input('N', Items.NETHER_STAR)
                         .criterion("magmarium", conditionsFromItem(ModItems.MAGMARIUM))
                         .offerTo(exporter);
 
                 ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.MAGMARIUM_LEGGINGS)
                         .pattern("MMM")
-                        .pattern("M M")
+                        .pattern("MNM")
                         .pattern("M M")
                         .input('M', ModItems.MAGMARIUM)
+                        .input('N', Items.NETHER_STAR)
                         .criterion("magmarium", conditionsFromItem(ModItems.MAGMARIUM))
                         .offerTo(exporter);
 
                 ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.MAGMARIUM_HELMET)
                         .pattern("MMM")
-                        .pattern("M M")
+                        .pattern("MNM")
                         .pattern("   ")
                         .input('M', ModItems.MAGMARIUM)
+                        .input('N', Items.NETHER_STAR)
                         .criterion("magmarium", conditionsFromItem(ModItems.MAGMARIUM))
                         .offerTo(exporter);
 
                 ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.MAGMARIUM_CHESTPLATE)
-                        .pattern("M M")
+                        .pattern("MNM")
                         .pattern("MMM")
                         .pattern("MMM")
                         .input('M', ModItems.MAGMARIUM)
+                        .input('N', Items.NETHER_STAR)
                         .criterion("magmarium", conditionsFromItem(ModItems.MAGMARIUM))
                         .offerTo(exporter);
 

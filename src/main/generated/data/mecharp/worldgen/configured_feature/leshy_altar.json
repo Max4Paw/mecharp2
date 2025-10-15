@@ -1,0 +1,6 @@
+{
+  "type": "mecharp:leshy_altar",
+  "config": {
+    "search_radius": 12
+  }
+}

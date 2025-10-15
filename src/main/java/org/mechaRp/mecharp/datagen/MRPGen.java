@@ -2,6 +2,7 @@ package org.mechaRp.mecharp.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.data.DataGenerator;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 import org.mechaRp.mecharp.world.ModConfiguredFeatures;
@@ -18,6 +19,8 @@ public class MRPGen implements DataGeneratorEntrypoint {
         pack.addProvider(FabricDocsReferenceRecipeProvider::new);
         pack.addProvider(FabricDocsReferenceItemTagProvider::new);
         pack.addProvider(ModRegistryDataGenerator::new);
+        DataGenerator.Pack secondaryPack = fabricDataGenerator.createPack();
+        secondaryPack.addProvider(ModEquipmentAssetProvider::new);
     }
     @Override
     public void buildRegistry(RegistryBuilder registryBuilder) {

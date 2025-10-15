@@ -1,74 +1,66 @@
 package org.mechaRp.mecharp.item;
 
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.NbtComponent;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
-import net.minecraft.text.Text;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.world.World;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.NbtComponent;
 
-import java.util.UUID;
+import java.util.Optional;
 
 public class BankCardItem extends Item {
     public BankCardItem(Settings settings) {
         super(settings);
     }
 
-    @Override
-    public ActionResult use(World world, PlayerEntity user, Hand hand) {
-        ItemStack stack = user.getStackInHand(hand);
-
-        if (!world.isClient && !hasPin(stack)) {
-            setPin(stack, user, "0000");
-            user.sendMessage(Text.literal("Карта активирована с PIN: 0000"), false);
-        }
-
-        return ActionResult.SUCCESS;
-    }
-    public static boolean hasPin(ItemStack stack) {
-        return stack.get(DataComponentTypes.CUSTOM_DATA) != null;
-    }
-
-    public static void setPin(ItemStack stack, PlayerEntity owner, String pin) {
-        NbtCompound nbt = new NbtCompound();
-        nbt.putString("Pin", pin);
-        nbt.putString("Owner", owner.getUuid().toString());
-        stack.set(DataComponentTypes.CUSTOM_DATA, NbtComponent.of(nbt));
-    }
-
-    public static boolean verifyPin(ItemStack stack, String pin) {
-        NbtComponent nbtComponent = stack.get(DataComponentTypes.CUSTOM_DATA);
-        if (nbtComponent != null) {
-            NbtCompound nbt = nbtComponent.getNbt();
-            return pin.equals(nbt.getString("Pin").orElse(""));
-        }
-        return false;
-    }
-
-    public static UUID getOwnerUuid(ItemStack stack) {
-        NbtComponent nbtComponent = stack.get(DataComponentTypes.CUSTOM_DATA);
-        if (nbtComponent != null) {
-            NbtCompound nbt = nbtComponent.getNbt();
-            String ownerUuidString = nbt.getString("Owner").orElse("");
-            if (!ownerUuidString.isEmpty()) {
-                try {
-                    return UUID.fromString(ownerUuidString);
-                } catch (IllegalArgumentException e) {
-                    return null;
-                }
-            }
-        }
-        return null;
-    }
+    // Устанавливает PIN-код, сохраняя существующий баланс
     public static void setPinCode(ItemStack stack, String pin) {
-        // У владельца тут можно передавать null или фиктивного игрока,
-        // если тебе не нужен PlayerEntity для этой операции
-        NbtCompound nbt = new NbtCompound();
-        nbt.putString("Pin", pin);
+        NbtCompound nbt = getOrCreateNbt(stack);
+        nbt.putString("PinCode", pin);
         stack.set(DataComponentTypes.CUSTOM_DATA, NbtComponent.of(nbt));
+    }
+
+    // Получает PIN-код
+    public static String getPinCode(ItemStack stack) {
+        NbtCompound nbt = getNbt(stack);
+        if (nbt != null && nbt.contains("PinCode")) {
+            Optional<String> pinOptional = nbt.getString("PinCode");
+            return pinOptional.orElse("");
+        }
+        return "";
+    }
+
+    // Устанавливает баланс, сохраняя существующий PIN-код
+    public static void setBalance(ItemStack stack, int balance) {
+        NbtCompound nbt = getOrCreateNbt(stack);
+        nbt.putInt("Balance", balance);
+        stack.set(DataComponentTypes.CUSTOM_DATA, NbtComponent.of(nbt));
+    }
+
+    // Получает баланс
+    public static int getBalance(ItemStack stack) {
+        NbtCompound nbt = getNbt(stack);
+        if (nbt != null && nbt.contains("Balance")) {
+            Optional<Integer> balanceOptional = nbt.getInt("Balance");
+            return balanceOptional.orElse(0);
+        }
+        return 0;
+    }
+
+    // Вспомогательный метод для получения NBT (или null, если его нет)
+    private static NbtCompound getNbt(ItemStack stack) {
+        NbtComponent nbtComponent = stack.get(DataComponentTypes.CUSTOM_DATA);
+        return nbtComponent != null ? nbtComponent.getNbt() : null;
+    }
+
+    // Вспомогательный метод для получения или создания NBT
+    private static NbtCompound getOrCreateNbt(ItemStack stack) {
+        NbtComponent nbtComponent = stack.get(DataComponentTypes.CUSTOM_DATA);
+        return nbtComponent != null ? nbtComponent.getNbt() : new NbtCompound();
+    }
+
+    // Метод для проверки, есть ли данные на карте
+    public static boolean hasData(ItemStack stack) {
+        return stack.get(DataComponentTypes.CUSTOM_DATA) != null;
     }
 }

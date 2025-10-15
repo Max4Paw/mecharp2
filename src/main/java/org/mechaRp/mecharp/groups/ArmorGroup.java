@@ -18,7 +18,7 @@ public class ArmorGroup {
             Identifier.of(Mecharp.MOD_ID, "armor_group"),
             ItemGroup.create(ItemGroup.Row.TOP, 3)
                     .displayName(Text.translatable("itemGroup.armor_group"))
-                    .icon(() -> new ItemStack(ModItems.BRONZE_COIN))
+                    .icon(() -> new ItemStack(ModItems.MAGMARIUM_CHESTPLATE))
                     .build()
     );
     public static final RegistryKey<ItemGroup> ARMOR_GROUP_KEY = RegistryKey.of(

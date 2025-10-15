@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "mecharp:palladium"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "mecharp:palladium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mecharp:palladium"
+      }
+    ]
+  }
+}

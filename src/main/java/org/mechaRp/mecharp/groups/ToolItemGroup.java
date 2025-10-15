@@ -18,7 +18,7 @@ public class ToolItemGroup {
             Identifier.of(Mecharp.MOD_ID, "tool_item_group"),
             ItemGroup.create(ItemGroup.Row.TOP, 2)
                     .displayName(Text.translatable("itemGroup.tools"))
-                    .icon(() -> new ItemStack(ModItems.PALLADIUM_PICKAXE))
+                    .icon(() -> new ItemStack(ModItems.PALLADIUM_PAXEL))
                     .build()
     );
     public static final RegistryKey<ItemGroup> TOOL_ITEM_KEY = RegistryKey.of(
@@ -30,6 +30,8 @@ public class ToolItemGroup {
         ItemGroupEvents.modifyEntriesEvent(TOOL_ITEM_KEY).register(entries -> {
             entries.add(ModItems.PALLADIUM_PICKAXE);
             entries.add(ModItems.PALLADIUM_SWORD);
+            entries.add(ModItems.PALLADIUM_PAXEL);
+            entries.add(ModItems.PALLADIUM_HAMMER);
 
         });
     }

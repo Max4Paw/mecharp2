@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "mecharp:magmarium"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "mecharp:magmarium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mecharp:magmarium"
+      }
+    ]
+  }
+}

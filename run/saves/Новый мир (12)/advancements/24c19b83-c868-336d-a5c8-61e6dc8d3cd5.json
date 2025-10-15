@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-13 06:02:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-10-13 06:02:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-10-13 06:02:10 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/tools/palladium_pickaxe_repair": {
+    "criteria": {
+      "has_palladium_pickaxe": "2025-10-13 06:02:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-10-13 06:02:11 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 4440
+}

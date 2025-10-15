@@ -2,10 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "M": "mecharp:magmarium"
+    "M": "mecharp:magmarium",
+    "N": "minecraft:nether_star"
   },
   "pattern": [
-    "M M",
+    "MNM",
     "MMM",
     "MMM"
   ],

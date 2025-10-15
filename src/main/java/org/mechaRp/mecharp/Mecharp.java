@@ -2,32 +2,25 @@ package org.mechaRp.mecharp;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
-import com.mojang.brigadier.arguments.StringArgumentType;
 import net.minecraft.registry.Registries;
-import net.minecraft.registry.RegistryBuilder;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.server.command.CommandManager;
-import net.minecraft.server.command.ServerCommandSource;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.mechaRp.init.BlockInit;
-import org.mechaRp.init.entity.screen.BankTerminalScreenHandlers;
-import org.mechaRp.mecharp.groups.ArmorGroup;
-import org.mechaRp.mecharp.groups.CoinItemGroup;
-import org.mechaRp.mecharp.groups.OreBlockGroup;
-import org.mechaRp.mecharp.groups.ToolItemGroup;
-import org.mechaRp.mecharp.item.BankCardItem;
+import org.mechaRp.mecharp.config.MagmariumConfig;
+import org.mechaRp.mecharp.config.PalladiumConfig;
+import org.mechaRp.mecharp.entity.ModEntities;
+import org.mechaRp.mecharp.groups.*;
+import org.mechaRp.mecharp.registry.ModScreenHandlers;
+import org.mechaRp.mecharp.boss.BossCommands;
+import org.mechaRp.mecharp.boss.BossEvents;
+import org.mechaRp.mecharp.command.BankCardCommands;
 import org.mechaRp.mecharp.item.ModItems;
-import org.mechaRp.mecharp.item.MyDataComponents;
-import org.mechaRp.mecharp.world.ModConfiguredFeatures;
+
+import org.mechaRp.mecharp.world.ModFeatures;
 import org.mechaRp.mecharp.world.ModOreGeneration;
-import org.mechaRp.mecharp.world.ModPlacedFeatures;
 import org.mechaRp.mecharp.world.gen.ModWorldGeneration;
+// ДОБАВЬТЕ ЭТИ ИМПОРТЫ
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import static net.minecraft.server.command.CommandManager.argument;
-import static net.minecraft.server.command.CommandManager.literal;
 
 public class Mecharp implements ModInitializer {
     public static final String MOD_ID = "mecharp";
@@ -39,17 +32,55 @@ public class Mecharp implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        MyDataComponents.register();
+        LOGGER.info("Начало инициализации мода MechaRP...");
+        PalladiumConfig.registerConfigs();
+        MagmariumConfig.registerConfigs();
+
+        // 1. Сначала регистрируем компоненты данных
+        //  MyDataComponents.register();
+        //LOGGER.info("Компоненты данных зарегистрированы");
+
+        // 2. Затем регистрируем предметы и блоки
         ModItems.initialize();
+        LOGGER.info("Предметы зарегистрированы");
+
         BlockInit.registerBlocks();
+        LOGGER.info("Блоки зарегистрированы");
+
+        // 3. РЕГИСТРИРУЕМ СТРУКТУРЫ (ДОБАВЬТЕ ЭТО!)
+        registerStructures();
+        LOGGER.info("Структуры зарегистрированы");
+
+        ModWorldGeneration.generateModWorldGen();
+        ModOreGeneration.generateOres();
+
+        // 4. Регистрируем группы творческого режима
         CoinItemGroup.registerItemGroups();
         OreBlockGroup.registerBlockGroup();
         ToolItemGroup.registerToolItemGroups();
         ArmorGroup.registerArmorGroups();
-        ModWorldGeneration.generateModWorldGen();
-        ModOreGeneration.generateOres();
-        BankTerminalScreenHandlers.registerScreenHandlers();
+        ItemBossGroup.registerToolItemGroups();
+        LOGGER.info("Группы творческого режима зарегистрированы");
+
+        // 5. Регистрируем сущности
+        ModEntities.registerModEntities();
+        LOGGER.info("Сущности зарегистрированы");
+
+        // 6. Регистрируем интерфейсы
+        ModScreenHandlers.registerScreenHandlers();
+        LOGGER.info("Экраны зарегистрированы");
+
+        // 7. Регистрируем события
+        BossEvents.register();
+        LOGGER.info("События зарегистрированы");
+
+        // 8. Регистрируем команды
         registerCommands();
+        LOGGER.info("Команды зарегистрированы");
+
+        // 9. Генерация мира (должна быть после регистрации структур)
+        ModFeatures.initialize();
+        LOGGER.info("Генерация мира настроена");
 
         // Отладочная информация
         LOGGER.info("=== ДЕБАГ ИНФОРМАЦИЯ ===");
@@ -59,52 +90,27 @@ public class Mecharp implements ModInitializer {
         LOGGER.info("bronze_coin: " +
                 Registries.ITEM.containsId(Identifier.of(MOD_ID, "bronze_coin")));
 
-        // Простая проверка рецептов
-        LOGGER.info("Проверка рецептов...");
-        LOGGER.info("Рецепты загружены (детальная проверка требует другого API)");
-
-        LOGGER.info("Мод MechaRP загружен!");
-    }
-    public void buildRegistry(RegistryBuilder registryBuilder) {
-        registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
-        registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+        LOGGER.info("Мод MechaRP успешно загружен!");
     }
 
     private void registerCommands() {
         CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
-            dispatcher.register(CommandManager.literal("activatecard")
-                    .then(CommandManager.argument("pin", StringArgumentType.string())
-                            .executes(context -> {
-                                ServerCommandSource source = context.getSource();
-                                if (!source.isExecutedByPlayer()) {
-                                    source.sendError(Text.literal("This command can only be executed by a player"));
-                                    return 0;
-                                }
-
-                                var player = source.getPlayer();
-                                var stack = player.getMainHandStack();
-
-                                if (stack.getItem() instanceof BankCardItem) {
-                                    String pin = StringArgumentType.getString(context, "pin");
-
-                                    // Проверка что PIN состоит из 4 цифр
-                                    if (pin.length() != 4 || !pin.matches("\\d+")) {
-                                        source.sendError(Text.literal("PIN must be 4 digits"));
-                                        return 0;
-                                    }
-
-                                    BankCardItem.setPinCode(stack, pin);
-                                    player.sendMessage(Text.translatable("message.mecharp.card_activated"), false);
-                                    return 1;
-                                } else {
-                                    source.sendError(Text.literal("Hold a bank card in your main hand"));
-                                    return 0;
-                                }
-                            })
-                    )
-            );
+            // Регистрация команд боссов
+            BossCommands.register(dispatcher);
+            // Регистрация команд банковских карт
+            BankCardCommands.register(dispatcher);
         });
     }
 
+    // ДОБАВЬТЕ ЭТОТ МЕТОД ДЛЯ РЕГИСТРАЦИИ СТРУКТУР
+    private void registerStructures() {
+        // Регистрируем структуры в правильном порядке
 
+
+        LOGGER.info("Structures зарегистрированы");
+
+        // Инициализируем генерацию мира для структур
+        ModWorldGeneration.initialize();
+        LOGGER.info("Генерация структур настроена");
+    }
 }

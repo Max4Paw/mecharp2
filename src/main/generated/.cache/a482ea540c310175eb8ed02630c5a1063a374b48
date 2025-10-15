@@ -1,1 +1,10 @@
 // 1.21.8	-999999999-01-01T00:00:00	RevivalRp/Tags for minecraft:block
+b221ec153f29e62c2cbf6a8c454ed35e266b870a data/mecharp/tags/block/incorrect_for_palladium_tool.json
+8ab9515627f0aa497103973bc10321de461d23f0 data/mecharp/tags/block/needs_palladium_tool.json
+8ab9515627f0aa497103973bc10321de461d23f0 data/minecraft/tags/block/incorrect_for_diamond_tool.json
+8ab9515627f0aa497103973bc10321de461d23f0 data/minecraft/tags/block/incorrect_for_gold_tool.json
+8ab9515627f0aa497103973bc10321de461d23f0 data/minecraft/tags/block/incorrect_for_iron_tool.json
+8ab9515627f0aa497103973bc10321de461d23f0 data/minecraft/tags/block/incorrect_for_netherite_tool.json
+8ab9515627f0aa497103973bc10321de461d23f0 data/minecraft/tags/block/incorrect_for_stone_tool.json
+8ab9515627f0aa497103973bc10321de461d23f0 data/minecraft/tags/block/incorrect_for_wooden_tool.json
+f22df240e83ed2a9cd5897957f14e1a35a517f5d data/minecraft/tags/block/mineable/pickaxe.json

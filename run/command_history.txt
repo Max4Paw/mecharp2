@@ -1,29 +1,3 @@
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/give @a mecharp:bronze_coin 1000
-/give @a mecharp:counter_block
-/give @a mecharp:bronze_coin 1000
-/give @a mecharp:counter_block
-/give @a mecharp:bank_terminal
-/give @a minecraft:furnace
-/give @a minecraft:coal
-/gamemode creative
-/recipe take @a
-/recipe give @p bronze
-/recipe give @p mecharp:bronze_coin_from_smelting
-/
-/recipe give @p mecharp:bronze_coin_from_smelting
-/recipe
-/recipe give @p mecharp:bronze_coin_from_smelting
-/recipe give @s mecharp:bronze_coin_from_smelting
-/data get entity @s Recipes
-/data get entity @s Recipes 1
-/data get entity @s Recipes 7
-/recipe list @s
-/data get entity @s
 /recipe give @p mecharp:bronze_coin_from_smelting
 /give @a mecharp:bank_card_green
 /gamemode survival
@@ -48,3 +22,29 @@
 /activatecard 2503
 /activatecard 0000
 /activatecard 2503
+/boss info
+/boss spawn
+/boss spawn leshy
+/boss info
+/boss spawn leshy
+/locate biome minecraft:forest
+/tp @s -193 64 -136
+/boss spawn leshy
+/boss info
+/bossbar remove
+/bossbar remove leshy
+/bossbar remove mecharp:leshy
+/give @a mecharp:leshy_boss_spawner
+/give @a minecraft:structure_block
+/give @a mecharp:leshy_boss_spawner
+/stopsound
+/stopsound @a
+/tp 20000 -30 20000
+/summon mecharp:leshy_boss
+/summon mecharp:leshy_boss 0 -20 0
+/summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Босс"}'}
+/summon mecharp:leshy_boss ~ ~ ~ {CustomName:'{"text":"Босс"}'}
+/data get entity @s SelectedItem
+/give @p minecraft:debug_stick
+/data get entity @s SelectedItem
+/time set night
