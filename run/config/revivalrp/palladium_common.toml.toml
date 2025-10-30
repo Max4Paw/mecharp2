@@ -1,0 +1,65 @@
+
+# --- --- Palladium Armor Protection and Resistance --- ---
+protectionValuePalladiumBoots=5 #Protection value of Palladium Boots | default: 5
+protectionValuePalladiumLeggings=7 #Protection value of Palladium Leggings | default: 7
+protectionValuePalladiumChestplate=9 #Protection value of Palladium Chestplate | default: 9
+protectionValuePalladiumHelmet=5 #Protection value of Palladium Helmet | default: 5
+
+# --- --- Palladium Armor Additional Properties --- ---
+toughnessValuePalladiumArmor=3 #Toughness value of Palladium Armor | default: 3
+knockbackResistanceValuePalladiumArmor=1 #Knockback resistance value of Palladium Armor | default: 1
+enchantmentValuePalladiumArmor=55 #Enchantment value of Palladium Armor | default: 55
+
+# --- --- Palladium Armor Effects --- ---
+speedIPalladiumArmor=true #Whether Palladium Armor gives Speed effect | default: true
+jumpIPalladiumArmor=true #Whether Palladium Armor gives Jump Boost effect | default: true
+nightVisionPalladiumArmor=true #Whether Palladium Armor gives Night Vision effect | default: true
+canWalkOnPowderedSnowPalladium=true #Whether Palladium Armor allows walking on powdered snow | default: true
+endermanWillNotBeAngryWithYouPalladium=true #Endermen won't be angry with you with Palladium Armor | default: true
+
+# --- --- Palladium Tool Tier Base Properties --- ---
+speedPalladiumTier=30 #Speed value of Palladium tier | default: 30
+enchantmentValuePalladiumTier=55 #Enchantment value of Palladium tier | default: 55
+attackDamageBonusPalladiumTier=1 #Attack damage bonus of Palladium tier | default: 1
+durabilityPalladium=3062 #Durability of Palladium tools | default: 3062
+unbreakablePalladium=false #Whether Palladium tools are unbreakable | default: false
+
+# --- --- Palladium Bow Stats --- ---
+enchantmentValuePalladiumBow=5 #Enchantment value of Palladium Bow | default: 5
+damagePalladiumBow=5 #Damage value of Palladium Bow | default: 5
+arrowCountPalladiumBow=2 #Arrow count of Palladium Bow | default: 2
+
+# --- --- Palladium Pickaxe Stats --- ---
+attackDamagePalladiumPickaxe=7 #Attack damage of Palladium Pickaxe | default: 7
+attackSpeedPalladiumPickaxe=0.5 #Attack speed of Palladium Pickaxe | default: 0.5
+
+# --- --- Palladium Axe Stats --- ---
+attackDamagePalladiumAxe=12 #Attack damage of Palladium Axe | default: 12
+attackSpeedPalladiumAxe=0.5 #Attack speed of Palladium Axe | default: 0.5
+
+# --- --- Palladium Shovel Stats --- ---
+attackDamagePalladiumShovel=7 #Attack damage of Palladium Shovel | default: 7
+attackSpeedPalladiumShovel=0.5 #Attack speed of Palladium Shovel | default: 0.5
+
+# --- --- Palladium Sword Stats --- ---
+attackDamagePalladiumSword=10 #Attack damage of Palladium Sword | default: 10
+attackSpeedPalladiumSword=0.5 #Attack speed of Palladium Sword | default: 0.5
+
+# --- --- Palladium Hoe Stats --- ---
+attackDamagePalladiumHoe=7 #Attack damage of Palladium Hoe | default: 7
+attackSpeedPalladiumHoe=0.5 #Attack speed of Palladium Hoe | default: 0.5
+
+# --- --- Palladium Multi-Tools Stats --- ---
+attackDamagePalladiumPaxel=11 #Attack damage of Palladium Paxel | default: 11
+attackSpeedPalladiumPaxel=0.5 #Attack speed of Palladium Paxel | default: 0.5
+
+# --- --- Palladium Hammer Stats --- ---
+attackDamagePalladiumHammer=7 #Attack damage of Palladium Hammer | default: 7
+attackSpeedPalladiumHammer=0.5 #Attack speed of Palladium Hammer | default: 0.5
+radiusPalladiumHammer=1 #Radius of Palladium Hammer | default: 1
+
+# --- --- Palladium Excavator Stats --- ---
+attackDamagePalladiumExcavator=7 #Attack damage of Palladium Excavator | default: 7
+attackSpeedPalladiumExcavator=0.5 #Attack speed of Palladium Excavator | default: 0.5
+radiusPalladiumExcavator=3 #Radius of Palladium Excavator | default: 3
+

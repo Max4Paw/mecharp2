@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "mecharp:palladium"
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mecharp:palladium_helmet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_palladium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:palladium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "mecharp:textures/icon.png",
+    "description": {
+      "color": "light_purple",
+      "translate": "advancement.revivalrp.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mecharp:palladium"
+    },
+    "title": {
+      "color": "light_purple",
+      "translate": "advancement.revivalrp.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_palladium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

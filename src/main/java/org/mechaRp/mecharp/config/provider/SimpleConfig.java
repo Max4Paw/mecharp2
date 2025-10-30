@@ -76,7 +76,7 @@ public class SimpleConfig {
      */
     public static ConfigRequest of( String filename ) {
         Path configDir = FabricLoader.getInstance().getConfigDir();
-        Path folder = configDir.resolve("immersiveores");
+        Path folder = configDir.resolve("revivalrp");
         return new ConfigRequest(folder.resolve(filename + ".toml").toFile(), filename);
     }
 

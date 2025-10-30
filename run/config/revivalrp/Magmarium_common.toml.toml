@@ -1,0 +1,68 @@
+
+# --- --- Magmarium Armor Protection and Resistance --- ---
+protectionValueMagmariumBoots=6 #Protection value of Magmarium Boots | default: 6
+protectionValueMagmariumLeggings=9 #Protection value of Magmarium Leggings | default: 9
+protectionValueMagmariumChestplate=12 #Protection value of Magmarium Chestplate | default: 12
+protectionValueMagmariumHelmet=6 #Protection value of Magmarium Helmet | default: 6
+toughnessValueMagmariumArmor=3 #Toughness value of Magmarium Armor | default: 3
+knockbackResistanceValueMagmariumArmor=1 #Knockback resistance of Magmarium Armor | default: 1
+enchantmentValueMagmariumArmor=55 #Enchantment value of Magmarium Armor | default: 55
+
+# --- --- Magmarium Armor Special Effects and Abilities --- ---
+speedIMagmariumArmor=true #Speed I effect for Magmarium Armor | default: true
+jumpIMagmariumArmor=true #Jump I effect for Magmarium Armor | default: true
+immuneToFallDamageMagmariumArmor=true #Immunity to fall damage for Magmarium Armor | default: true
+fireResistanceMagmariumArmor=true #Fire resistance for Magmarium Armor | default: true
+neverLoseHungerMagmariumArmor=true #Never lose hunger with Magmarium Armor | default: true
+nightVisionMagmariumArmor=true #Night Vision effect for Magmarium Armor | default: true
+canFlyMagmariumArmor=true #Ability to fly with Magmarium Armor | default: true
+endermanWillNotBeAngryWithYouMagmarium=true #Endermen won't be angry with you with Magmarium Armor | default: true
+makesPiglinsNeutralMagmarium=true #Makes Piglins neutral with Magmarium Armor | default: true
+canWalkOnPowderedSnowMagmarium=true #Can walk on powdered snow with Magmarium Armor | default: true
+
+# --- --- Magmarium Bow Settings --- ---
+enchantmentValueMagmariumBow=5 #Enchantment value of Magmarium Bow | default: 5
+damageMagmariumBow=5 #Damage value of Magmarium Bow | default: 5
+arrowCountMagmariumBow=2 #Arrow count for Magmarium Bow | default: 2
+
+# --- --- Magmarium Tool Tier Base Properties --- ---
+speedMagmariumTier=30 #Speed value of Magmarium tier | default: 30
+enchantmentValueMagmariumier=55 #Enchantment value of Magmarium tier | default: 55
+attackDamageBonusMagmariumTier=1 #Attack damage bonus of Magmarium tier | default: 1
+durabilityMagmarium=3562 #Durability of Magmarium tools | default: 3562
+unbreakableMagmarium=false #Whether Magmarium tools are unbreakable | default: false
+
+# --- --- Magmarium Pickaxe Stats --- ---
+attackDamageMagmariumPickaxe=8 #Attack damage of Magmarium Pickaxe | default: 8
+attackSpeedMagmariumPickaxe=0.6 #Attack speed of Magmarium Pickaxe | default: 0.6
+
+# --- --- Magmarium Axe Stats --- ---
+attackDamageMagmariumAxe=12 #Attack damage of Vibranium Axe | default: 12
+attackSpeedMagmariumAxe=0.5 #Attack speed of Vibranium Axe | default: 0.5
+
+# --- --- Magmarium Shovel Stats --- ---
+attackDamageMagmariumShovel=7 #Attack damage of Vibranium Shovel | default: 7
+attackSpeedMagmariumShovel=0.5 #Attack speed of Vibranium Shovel | default: 0.5
+
+# --- --- Magmarium Sword Stats --- ---
+attackDamageMagmariumSword=14 #Attack damage of Vibranium Sword | default: 14
+attackSpeedMagmariumSword=0.5 #Attack speed of Vibranium Sword | default: 0.5
+
+# --- --- Vibranium Hoe Stats --- ---
+attackDamageVibraniumHoe=7 #Attack damage of Vibranium Hoe | default: 7
+attackSpeedVibraniumHoe=0.5 #Attack speed of Vibranium Hoe | default: 0.5
+
+# --- --- Vibranium Paxel Stats --- ---
+attackDamageVibraniumPaxel=11 #Attack damage of Vibranium Paxel | default: 11
+attackSpeedVibraniumPaxel=0.5 #Attack speed of Vibranium Paxel | default: 0.5
+
+# --- --- Vibranium Hammer Stats --- ---
+attackDamageVibraniumHammer=9 #Attack damage of Vibranium Hammer | default: 9
+attackSpeedVibraniumHammer=0.5 #Attack speed of Vibranium Hammer | default: 0.5
+radiusVibraniumHammer=1 #Hammering radius for Vibranium Hammer | default: 1
+
+# --- --- Vibranium Excavator Stats --- ---
+attackDamageVibraniumExcavator=7 #Attack damage of Vibranium Excavator | default: 7
+attackSpeedVibraniumExcavator=0.5 #Attack speed of Vibranium Excavator | default: 0.5
+radiusVibraniumExcavator=1 #Excavation radius for Vibranium Excavator | default: 1
+

@@ -3,5 +3,6 @@
   "waila:vanilla": true,
   "waila:harvest": true,
   "waila:extra": true,
-  "waila:fabric": true
+  "waila:fabric": true,
+  "mecharp:wthit": true
 }

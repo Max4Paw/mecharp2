@@ -1,0 +1,35 @@
+{
+  "parent": "mecharp:magmariumtools",
+  "criteria": {
+    "has_magmarium_hammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:magmarium_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "red",
+      "translate": "advancement.revivalrp.magmariumtools.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mecharp:magmarium_hammer"
+    },
+    "title": {
+      "color": "red",
+      "translate": "advancement.revivalrp.magmariumspecialtools.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_magmarium_hammer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

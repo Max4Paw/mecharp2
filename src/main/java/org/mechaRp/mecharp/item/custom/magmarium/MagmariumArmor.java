@@ -124,69 +124,82 @@ public class MagmariumArmor extends Item {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
         super.appendTooltip(stack, context, displayComponent, textConsumer, type);
-        if(Screen.hasShiftDown()) {
+        if (Screen.hasShiftDown()) {
             if (ModItems.MAGMARIUM_BOOTS == stack.getItem()) {
                 if (MagmariumConfig.unbreakableMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
                 }
-                textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
+                textConsumer.accept(Text.translatable("tooltip.mecharp.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
                 if (MagmariumConfig.speedIIIMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.speed3.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.jumpIIIMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.jump3.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.canWalkOnPowderedSnowMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.canwalkonpowderedsnow.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.fireResistanceMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.playerimmunetofire.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.makesPiglinsNeutralMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetopiglin.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.immuneToFallDamageMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetofalldamage.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.canFlyMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.canfly.tooltip").formatted(Formatting.DARK_AQUA));
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.speed3.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.jumpIIIMagmariumArmor) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.jump3.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.canWalkOnPowderedSnowMagmarium) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.canwalkonpowderedsnow.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.fireResistanceMagmariumArmor) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.playerimmunetofire.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.makesPiglinsNeutralMagmarium) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.immunetopiglin.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.immuneToFallDamageMagmariumArmor) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.immunetofalldamage.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.canFlyMagmariumArmor) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.canfly.tooltip").formatted(Formatting.DARK_AQUA));
                 }
             }
             if (ModItems.MAGMARIUM_CHESTPLATE == stack.getItem()) {
                 if (MagmariumConfig.unbreakableMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
                 }
-                textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
+                textConsumer.accept(Text.translatable("tooltip.mecharp.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
                 if (MagmariumConfig.fireResistanceMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.playerimmunetofire.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.makesPiglinsNeutralMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetopiglin.tooltip").formatted(Formatting.DARK_AQUA));
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.playerimmunetofire.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.makesPiglinsNeutralMagmarium) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.immunetopiglin.tooltip").formatted(Formatting.DARK_AQUA));
                 }
             }
             if (ModItems.MAGMARIUM_LEGGINGS == stack.getItem()) {
                 if (MagmariumConfig.unbreakableMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
                 }
-                textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
+                textConsumer.accept(Text.translatable("tooltip.mecharp.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
                 if (MagmariumConfig.fireResistanceMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.playerimmunetofire.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.makesPiglinsNeutralMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetopiglin.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.neverLoseHungerMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.nerverlosehunger.tooltip").formatted(Formatting.DARK_AQUA));
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.playerimmunetofire.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.makesPiglinsNeutralMagmarium) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.immunetopiglin.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.neverLoseHungerMagmariumArmor) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.nerverlosehunger.tooltip").formatted(Formatting.DARK_AQUA));
                 }
             }
             if (ModItems.MAGMARIUM_HELMET == stack.getItem()) {
                 if (MagmariumConfig.unbreakableMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
                 }
-                textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
+                textConsumer.accept(Text.translatable("tooltip.mecharp.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
                 if (MagmariumConfig.nightVisionMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.nightvision.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.makesPiglinsNeutralMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetopiglin.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.endermanWillNotBeAngryWithYouMagmarium) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.endermanwillnotbeangrywithyou.tooltip").formatted(Formatting.DARK_AQUA));
-                } if (MagmariumConfig.fireResistanceMagmariumArmor) {
-                    textConsumer.accept(Text.translatable("tooltip.immersiveores.playerimmunetofire.tooltip").formatted(Formatting.DARK_AQUA));
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.nightvision.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.makesPiglinsNeutralMagmarium) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.immunetopiglin.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.endermanWillNotBeAngryWithYouMagmarium) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.endermanwillnotbeangrywithyou.tooltip").formatted(Formatting.DARK_AQUA));
+                }
+                if (MagmariumConfig.fireResistanceMagmariumArmor) {
+                    textConsumer.accept(Text.translatable("tooltip.mecharp.playerimmunetofire.tooltip").formatted(Formatting.DARK_AQUA));
                 }
             }
         } else {
-            textConsumer.accept(Text.translatable("tooltip.immersiveores.pressshiftformoreinfo.tooltip").formatted(Formatting.DARK_AQUA));
+            textConsumer.accept(Text.translatable("tooltip.mecharp.pressshiftformoreinfo.tooltip").formatted(Formatting.DARK_AQUA));
         }
     }
+
 }

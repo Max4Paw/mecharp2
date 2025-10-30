@@ -4,7 +4,7 @@
   "package": "org.mechaRp.mecharp.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-
+    "EndermanMixinPalladium"
   ],
   "client": [
   ],

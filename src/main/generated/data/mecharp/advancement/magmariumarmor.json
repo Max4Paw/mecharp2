@@ -1,0 +1,74 @@
+{
+  "parent": "mecharp:magmarium",
+  "criteria": {
+    "has_magmarium_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:magmarium_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magmarium_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:magmarium_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magmarium_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:magmarium_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magmarium_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:magmarium_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "red",
+      "translate": "advancement.revivalrp.magmariumarmor.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mecharp:magmarium_chestplate"
+    },
+    "title": {
+      "color": "red",
+      "translate": "advancement.revivalrp.magmariumarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_magmarium_helmet"
+    ],
+    [
+      "has_magmarium_chestplate"
+    ],
+    [
+      "has_magmarium_leggings"
+    ],
+    [
+      "has_magmarium_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

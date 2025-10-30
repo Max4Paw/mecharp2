@@ -1,12 +1,3 @@
-/recipe give @p mecharp:bronze_coin_from_smelting
-/give @a mecharp:bank_card_green
-/gamemode survival
-/give @a minecraft:coal 399
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
 /gamemode survival
 /give Player864 mecharp:palladium_pickaxe
 /gamemode creative
@@ -48,3 +39,12 @@
 /give @p minecraft:debug_stick
 /data get entity @s SelectedItem
 /time set night
+/give @a mecharp:asbestit_ore
+/give @a mecharp:iron_stick
+/give @a mecharp:iron_stick\
+/give @a mecharp:iron_stick
+/give @a mecharp:bank_terminal
+/checkbalance
+/activatecard 2023
+/checkbalance
+/time set day

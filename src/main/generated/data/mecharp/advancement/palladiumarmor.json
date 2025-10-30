@@ -1,0 +1,74 @@
+{
+  "parent": "mecharp:root",
+  "criteria": {
+    "has_palladium_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:palladium_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_palladium_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:palladium_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_palladium_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:palladium_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_palladium_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:palladium_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "light_purple",
+      "translate": "advancement.revivalrp.palladiumarmor.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mecharp:palladium_chestplate"
+    },
+    "title": {
+      "color": "light_purple",
+      "translate": "advancement.revivalrp.palladiumarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_palladium_helmet"
+    ],
+    [
+      "has_palladium_chestplate"
+    ],
+    [
+      "has_palladium_leggings"
+    ],
+    [
+      "has_palladium_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

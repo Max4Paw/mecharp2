@@ -27,6 +27,8 @@ public class ModConfiguredFeatures {
             registryKey("platinum_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> PALLADIUM_ORE =
             registryKey("palladium_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ASBESTIT_ORE =
+            RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(Mecharp.MOD_ID, "asbestit_ore"));
     public static final RegistryKey<ConfiguredFeature<?, ?>> MAGMARIUM_ORE =
             RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(Mecharp.MOD_ID, "magmarium_ore"));
     public static final RegistryKey<ConfiguredFeature<?, ?>> LESHY_ALTAR = registryKey("leshy_altar");
@@ -87,6 +89,15 @@ public class ModConfiguredFeatures {
 
                         ),
                         6
+                )
+        );
+        register( context, ASBESTIT_ORE,  Feature.ORE,
+                new OreFeatureConfig(
+                        List.of(
+                                OreFeatureConfig.createTarget(netherrackReplacebles, BlockInit.ASBESTIT_ORE_BLOCK.getDefaultState())
+
+                        ),
+                        5
                 )
         );
 

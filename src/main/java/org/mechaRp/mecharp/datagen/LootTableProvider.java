@@ -52,6 +52,7 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
         addDrop(BlockInit.DEEPSLATE_BRONZE_ORE_BLOCK, oreDrops(BlockInit.DEEPSLATE_BRONZE_ORE_BLOCK, ModItems.BRONZE_ORE_MATERIAL));
 
         addDrop(BlockInit.MAGMARIUM_ORE_BLOCK, multipleOreDrops(BlockInit.MAGMARIUM_ORE_BLOCK,ModItems.MAGMARIUM_ORE_MATERIAL,2,5));
+        addDrop(BlockInit.ASBESTIT_ORE_BLOCK, multipleOreDrops(BlockInit.ASBESTIT_ORE_BLOCK,ModItems.ASBESTIT_ORE_MATERIAL,2,5));
 
         // Специальный дроп для магмариума с требованием инструмента по ТЕ
     }

@@ -32,16 +32,7 @@ public class WthitCompatibility implements IWailaPlugin {
 
             if (state.isIn(ModTags.Blocks.NEEDS_PALLADIUM_TOOL)) {
                 requiredTool = new ItemStack(ModItems.PALLADIUM_PICKAXE);
-                toolName = "Vibranium Tool";
-//            } else if (state.isIn(ModTags.Blocks.NEEDS_VULPUS_TOOL)) {
-//                requiredTool = new ItemStack(ModItems.VULPUS_PICKAXE);
-//                toolName = "Vulpus Tool";
-//            } else if (state.isIn(ModTags.Blocks.NEEDS_ENDERIUM_TOOL)) {
-//                requiredTool = new ItemStack(ModItems.ENDERIUM_PICKAXE);
-//                toolName = "Enderium Tool";
-//            } else if (state.isIn(ModTags.Blocks.NEEDS_NETHERITE_TOOL)) {
-//                requiredTool = new ItemStack(Items.NETHERITE_PICKAXE);
-//                toolName = "Netherite Tool";
+                toolName = "Palladium Tool";
             }
 
             if (requiredTool != null) {
@@ -57,26 +48,9 @@ public class WthitCompatibility implements IWailaPlugin {
     private static boolean canHarvestWithTag(ItemStack held, BlockState state) {
         if (held.isEmpty()) return false;
 
-//        if (held.isOf(Items.NETHERITE_PICKAXE)) {
-//            return state.isIn(ModTags.Blocks.NEEDS_NETHERITE_TOOL);
-//        }
-//
-//        if (held.isOf(ModItems.VIBRANIUM_PICKAXE) ||
-//                held.isOf(ModItems.VIBRANIUM_HAMMER) ||
-//                held.isOf(ModItems.VIBRANIUM_PAXEL)) {
-//
-//            return state.isIn(ModTags.Blocks.NEEDS_NETHERITE_TOOL) ||
-//                    state.isIn(ModTags.Blocks.NEEDS_VIBRANIUM_TOOL);
-//        }
-
-//        if (held.isOf(ModItems.VULPUS_PICKAXE) ||
-//                held.isOf(ModItems.VULPUS_HAMMER) ||
-//                held.isOf(ModItems.VULPUS_PAXEL)) {
-//            return true;
-//        }
 
         if (held.isOf(ModItems.PALLADIUM_PICKAXE) ||
-
+                held.isOf(ModItems.PALLADIUM_HAMMER) ||
                 held.isOf(ModItems.PALLADIUM_PAXEL)) {
             return true;
         }

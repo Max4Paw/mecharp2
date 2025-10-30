@@ -1,5 +1,12 @@
 {
   "values": [
-    "mecharp:magmarium_ore"
+    "mecharp:magmarium_ore",
+    "mecharp:asbestit_ore",
+    "mecharp:palladium_ore",
+    "mecharp:deepslate_palladium_ore",
+    "mecharp:platinum_ore",
+    "mecharp:deepslate_platinum_ore",
+    "mecharp:silver_ore",
+    "mecharp:deepslate_silver_ore"
   ]
 }

@@ -90,33 +90,33 @@ public class MagmariumConfig {
 
         configs.addKeyValuePair(new Pair<>("canWalkOnPowderedSnowMagmarium", true), "Can walk on powdered snow with Magmarium Armor");
 
-        configs.addComment("--- Vibranium Bow Settings ---");
-        configs.addKeyValuePair(new Pair<>("enchantmentValueVibraniumBow", 5), "Enchantment value of Vibranium Bow");
-        configs.addKeyValuePair(new Pair<>("damageVibraniumBow", 5), "Damage value of Vibranium Bow");
-        configs.addKeyValuePair(new Pair<>("arrowCountVibraniumBow", 2), "Arrow count for Vibranium Bow");
+        configs.addComment("--- Magmarium Bow Settings ---");
+        configs.addKeyValuePair(new Pair<>("enchantmentValueMagmariumBow", 5), "Enchantment value of Magmarium Bow");
+        configs.addKeyValuePair(new Pair<>("damageMagmariumBow", 5), "Damage value of Magmarium Bow");
+        configs.addKeyValuePair(new Pair<>("arrowCountMagmariumBow", 2), "Arrow count for Magmarium Bow");
 
-        configs.addComment("--- Vibranium Tool Tier Base Properties ---");
-        configs.addKeyValuePair(new Pair<>("speedVibraniumTier", 30), "Speed value of Vibranium tier");
-        configs.addKeyValuePair(new Pair<>("enchantmentValueVibraniumTier", 55), "Enchantment value of Vibranium tier");
-        configs.addKeyValuePair(new Pair<>("attackDamageBonusVibraniumTier", 1), "Attack damage bonus of Vibranium tier");
-        configs.addKeyValuePair(new Pair<>("durabilityVibranium", 2562), "Durability of Vibranium tools");
-        configs.addKeyValuePair(new Pair<>("unbreakableVibranium", false), "Whether Vibranium tools are unbreakable");
+        configs.addComment("--- Magmarium Tool Tier Base Properties ---");
+        configs.addKeyValuePair(new Pair<>("speedMagmariumTier", 30), "Speed value of Magmarium tier");
+        configs.addKeyValuePair(new Pair<>("enchantmentValueMagmariumier", 55), "Enchantment value of Magmarium tier");
+        configs.addKeyValuePair(new Pair<>("attackDamageBonusMagmariumTier", 1), "Attack damage bonus of Magmarium tier");
+        configs.addKeyValuePair(new Pair<>("durabilityMagmarium", 3562), "Durability of Magmarium tools");
+        configs.addKeyValuePair(new Pair<>("unbreakableMagmarium", false), "Whether Magmarium tools are unbreakable");
 
-        configs.addComment("--- Vibranium Pickaxe Stats ---");
-        configs.addKeyValuePair(new Pair<>("attackDamageVibraniumPickaxe", 7), "Attack damage of Vibranium Pickaxe");
-        configs.addKeyValuePair(new Pair<>("attackSpeedVibraniumPickaxe", 0.5), "Attack speed of Vibranium Pickaxe");
+        configs.addComment("--- Magmarium Pickaxe Stats ---");
+        configs.addKeyValuePair(new Pair<>("attackDamageMagmariumPickaxe", 8), "Attack damage of Magmarium Pickaxe");
+        configs.addKeyValuePair(new Pair<>("attackSpeedMagmariumPickaxe", 0.6), "Attack speed of Magmarium Pickaxe");
 
-        configs.addComment("--- Vibranium Axe Stats ---");
-        configs.addKeyValuePair(new Pair<>("attackDamageVibraniumAxe", 12), "Attack damage of Vibranium Axe");
-        configs.addKeyValuePair(new Pair<>("attackSpeedVibraniumAxe", 0.5), "Attack speed of Vibranium Axe");
+        configs.addComment("--- Magmarium Axe Stats ---");
+        configs.addKeyValuePair(new Pair<>("attackDamageMagmariumAxe", 12), "Attack damage of Vibranium Axe");
+        configs.addKeyValuePair(new Pair<>("attackSpeedMagmariumAxe", 0.5), "Attack speed of Vibranium Axe");
 
-        configs.addComment("--- Vibranium Shovel Stats ---");
-        configs.addKeyValuePair(new Pair<>("attackDamageVibraniumShovel", 7), "Attack damage of Vibranium Shovel");
-        configs.addKeyValuePair(new Pair<>("attackSpeedVibraniumShovel", 0.5), "Attack speed of Vibranium Shovel");
+        configs.addComment("--- Magmarium Shovel Stats ---");
+        configs.addKeyValuePair(new Pair<>("attackDamageMagmariumShovel", 7), "Attack damage of Vibranium Shovel");
+        configs.addKeyValuePair(new Pair<>("attackSpeedMagmariumShovel", 0.5), "Attack speed of Vibranium Shovel");
 
-        configs.addComment("--- Vibranium Sword Stats ---");
-        configs.addKeyValuePair(new Pair<>("attackDamageVibraniumSword", 10), "Attack damage of Vibranium Sword");
-        configs.addKeyValuePair(new Pair<>("attackSpeedVibraniumSword", 0.5), "Attack speed of Vibranium Sword");
+        configs.addComment("--- Magmarium Sword Stats ---");
+        configs.addKeyValuePair(new Pair<>("attackDamageMagmariumSword", 14), "Attack damage of Vibranium Sword");
+        configs.addKeyValuePair(new Pair<>("attackSpeedMagmariumSword", 0.5), "Attack speed of Vibranium Sword");
 
         configs.addComment("--- Vibranium Hoe Stats ---");
         configs.addKeyValuePair(new Pair<>("attackDamageVibraniumHoe", 7), "Attack damage of Vibranium Hoe");
@@ -127,7 +127,7 @@ public class MagmariumConfig {
         configs.addKeyValuePair(new Pair<>("attackSpeedVibraniumPaxel", 0.5), "Attack speed of Vibranium Paxel");
 
         configs.addComment("--- Vibranium Hammer Stats ---");
-        configs.addKeyValuePair(new Pair<>("attackDamageVibraniumHammer", 7), "Attack damage of Vibranium Hammer");
+        configs.addKeyValuePair(new Pair<>("attackDamageVibraniumHammer", 9), "Attack damage of Vibranium Hammer");
         configs.addKeyValuePair(new Pair<>("attackSpeedVibraniumHammer", 0.5), "Attack speed of Vibranium Hammer");
         configs.addKeyValuePair(new Pair<>("radiusVibraniumHammer", 1), "Hammering radius for Vibranium Hammer");
 
@@ -144,11 +144,11 @@ public class MagmariumConfig {
         protectionValueMagmariumChestplate = MAGMARIUM_CONFIG.getOrDefault("protectionValueMagmariumChestplate", 12);
         protectionValueMagmariumHelmet = MAGMARIUM_CONFIG.getOrDefault("protectionValueMagmariumHelmet", 6);
 
-        toughnessValueMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("toughnessValuePalladiumArmor", 3);
-        knockbackResistanceValueMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("knockbackResistanceValuePalladiumArmor", 1);
-        enchantmentValueMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("enchantmentValuePalladiumArmor", 55);
-        durabilityMagmarium = MAGMARIUM_CONFIG.getOrDefault("durabilityPalladium", 2562);
-        unbreakableMagmarium = MAGMARIUM_CONFIG.getOrDefault("unbreakablePalladium", false);
+        toughnessValueMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("toughnessValueMagmariumArmor", 3);
+        knockbackResistanceValueMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("knockbackResistanceValueMagmariumArmor", 1);
+        enchantmentValueMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("enchantmentValueMagmariumArmor", 55);
+        durabilityMagmarium = MAGMARIUM_CONFIG.getOrDefault("durabilityMagmarium", 3562);
+        unbreakableMagmarium = MAGMARIUM_CONFIG.getOrDefault("unbreakableMagmarium", false);
 
         speedIIIMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("speedIIIMagmariumArmor", true);
         jumpIIIMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("jumpIIIMagmariumArmor", true);
@@ -161,39 +161,39 @@ public class MagmariumConfig {
         neverLoseHungerMagmariumArmor = MAGMARIUM_CONFIG.getOrDefault("neverLoseHungerMagmariumArmor", true);
         endermanWillNotBeAngryWithYouMagmarium = MAGMARIUM_CONFIG.getOrDefault("endermanWillNotBeAngryWithYouMagmarium", true);
 
-        speedMagmariumTier = MAGMARIUM_CONFIG.getOrDefault("speedPalladiumTier", 30);
-        enchantmentValueMagmariumBow = MAGMARIUM_CONFIG.getOrDefault("enchantmentValuePalladiumBow", 5);
-        damageMagmariumBow = MAGMARIUM_CONFIG.getOrDefault("damagePalladiumBow", 5);
-        attackDamageBonusMagmariumTier = MAGMARIUM_CONFIG.getOrDefault("attackDamageBonusPalladiumTier", 1);
-        enchantmentValueMagmariumTier = MAGMARIUM_CONFIG.getOrDefault("enchantmentValuePalladiumTier", 55);
+        speedMagmariumTier = MAGMARIUM_CONFIG.getOrDefault("speedMagmariumTier", 30);
+        enchantmentValueMagmariumBow = MAGMARIUM_CONFIG.getOrDefault("enchantmentValueMagmariumBow", 5);
+        damageMagmariumBow = MAGMARIUM_CONFIG.getOrDefault("damageMagmariumBow", 5);
+        attackDamageBonusMagmariumTier = MAGMARIUM_CONFIG.getOrDefault("attackDamageBonusMagmariumTier", 1);
+        enchantmentValueMagmariumTier = MAGMARIUM_CONFIG.getOrDefault("enchantmentValueMagmariumTier", 55);
 
-        attackDamageMagmariumPickaxe = MAGMARIUM_CONFIG.getOrDefault("attackDamagePalladiumPickaxe", 7);
-        attackSpeedMagmariumPickaxe = MAGMARIUM_CONFIG.getOrDefault("attackSpeedPalladiumPickaxe", 0.5);
+        attackDamageMagmariumPickaxe = MAGMARIUM_CONFIG.getOrDefault("attackDamageMagmariumPickaxe", 8);
+        attackSpeedMagmariumPickaxe = MAGMARIUM_CONFIG.getOrDefault("attackSpeedMagmariumPickaxe", 0.6);
 
-        attackDamageMagmariumAxe = MAGMARIUM_CONFIG.getOrDefault("attackDamagePalladiumAxe", 12);
-        attackSpeedMagmariumAxe = MAGMARIUM_CONFIG.getOrDefault("attackSpeedPalladiumAxe", 0.5);
+        attackDamageMagmariumAxe = MAGMARIUM_CONFIG.getOrDefault("attackDamageMagmariumAxe", 12);
+        attackSpeedMagmariumAxe = MAGMARIUM_CONFIG.getOrDefault("attackSpeedMagmariumAxe", 0.5);
 
-        attackDamageMagmariumShovel = MAGMARIUM_CONFIG.getOrDefault("attackDamagePalladiumShovel", 7);
-        attackSpeedMagmariumShovel = MAGMARIUM_CONFIG.getOrDefault("attackSpeedPalladiumShovel", 0.5);
+        attackDamageMagmariumShovel = MAGMARIUM_CONFIG.getOrDefault("attackDamageMagmariumShovel", 7);
+        attackSpeedMagmariumShovel = MAGMARIUM_CONFIG.getOrDefault("attackSpeedMagmariumShovel", 0.5);
 
-        attackDamageMagmariumSword = MAGMARIUM_CONFIG.getOrDefault("attackDamagePalladiumSword", 10);
-        attackSpeedMagmariumSword = MAGMARIUM_CONFIG.getOrDefault("attackSpeedPalladiumSword", 0.5);
+        attackDamageMagmariumSword = MAGMARIUM_CONFIG.getOrDefault("attackDamageMagmariumSword", 14);
+        attackSpeedMagmariumSword = MAGMARIUM_CONFIG.getOrDefault("attackSpeedMagmariumSword", 0.7);
 
-        attackDamageMagmariumHoe = MAGMARIUM_CONFIG.getOrDefault("attackDamagePalladiumHoe", 7);
-        attackSpeedMagmariumHoe = MAGMARIUM_CONFIG.getOrDefault("attackSpeedPalladiumHoe", 0.5);
+        attackDamageMagmariumHoe = MAGMARIUM_CONFIG.getOrDefault("attackDamageMagmariumHoe", 7);
+        attackSpeedMagmariumHoe = MAGMARIUM_CONFIG.getOrDefault("attackSpeedMagmariumHoe", 0.5);
 
-        attackDamageMagmariumPaxel = MAGMARIUM_CONFIG.getOrDefault("attackDamagePalladiumPaxel", 11);
-        attackSpeedMagmariumPaxel = MAGMARIUM_CONFIG.getOrDefault("attackSpeedPalladiumPaxel", 0.5);
+        attackDamageMagmariumPaxel = MAGMARIUM_CONFIG.getOrDefault("attackDamageMagmariumPaxel", 11);
+        attackSpeedMagmariumPaxel = MAGMARIUM_CONFIG.getOrDefault("attackSpeedMagmariumPaxel", 0.5);
 
-        attackDamageMagmariumHammer = MAGMARIUM_CONFIG.getOrDefault("attackDamagePalladiumHammer", 7);
-        attackSpeedMagmariumHammer = MAGMARIUM_CONFIG.getOrDefault("attackSpeedPalladiumHammer", 0.5);
-        radiusMagmariumHammer = MAGMARIUM_CONFIG.getOrDefault("radiusPalladiumHammer", 1);
+        attackDamageMagmariumHammer = MAGMARIUM_CONFIG.getOrDefault("attackDamageMagmariumHammer", 7);
+        attackSpeedMagmariumHammer = MAGMARIUM_CONFIG.getOrDefault("attackSpeedMagmariumHammer", 0.5);
+        radiusMagmariumHammer = MAGMARIUM_CONFIG.getOrDefault("radiusMagmariumHammer", 1);
 
-        attackDamageMagmariumExcavator = MAGMARIUM_CONFIG.getOrDefault("attackDamagePalladiumExcavator", 7);
-        attackSpeedMagmariumExcavator = MAGMARIUM_CONFIG.getOrDefault("attackSpeedPalladiumExcavator", 0.5);
-        radiusMagmariumExcavator = MAGMARIUM_CONFIG.getOrDefault("radiusPalladiumExcavator", 1);
+        attackDamageMagmariumExcavator = MAGMARIUM_CONFIG.getOrDefault("attackDamageMagmariumExcavator", 9);
+        attackSpeedMagmariumExcavator = MAGMARIUM_CONFIG.getOrDefault("attackSpeedMagmariumExcavator", 0.5);
+        radiusMagmariumExcavator = MAGMARIUM_CONFIG.getOrDefault("radiusMagmariumExcavator", 1);
 
-        arrowCountMagmariumBow = MAGMARIUM_CONFIG.getOrDefault("arrowCountPalladiumBow", 2);
+        arrowCountMagmariumBow = MAGMARIUM_CONFIG.getOrDefault("arrowCountMagmariumBow", 2);
 
     }
 

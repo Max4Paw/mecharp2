@@ -1,0 +1,177 @@
+{
+  "mecharp:recipes/misc/bronze_coin_from_blasting_bronze_ore_material": {
+    "criteria": {
+      "has_bronze_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_smelting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/bronze_coin_from_smelting_bronze_ore_material": {
+    "criteria": {
+      "has_bronze_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_blasting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/platinum_coin_from_smelting_platinum_ore_material": {
+    "criteria": {
+      "has_platinum_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_from_smelting_palladium_ore_material": {
+    "criteria": {
+      "has_palladium_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/asbestit_from_smelting_asbestit_ore_material": {
+    "criteria": {
+      "has_asbestit_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/magmarium_from_blasting_magmarium_ore_material": {
+    "criteria": {
+      "has_magmarium_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_from_blasting_palladium_ore_material": {
+    "criteria": {
+      "has_palladium_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/asbestit_from_blasting_asbestit_ore_material": {
+    "criteria": {
+      "has_asbestit_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/platinum_coin_from_blasting_platinum_ore_material": {
+    "criteria": {
+      "has_platinum_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/magmarium_from_smelting_magmarium_ore_material": {
+    "criteria": {
+      "has_magmarium_ore_material": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_ingot_material": {
+    "criteria": {
+      "has_palladium": "2025-10-18 04:05:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/tools/palladium_pickaxe_repair": {
+    "criteria": {
+      "has_palladium_pickaxe": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-10-18 04:04:39 +0300"
+    },
+    "done": false
+  },
+  "mecharp:recipes/tools/magmarium_pickaxe_repair": {
+    "criteria": {
+      "has_magmarium_pickaxe": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-10-18 04:04:38 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

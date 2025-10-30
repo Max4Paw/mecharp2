@@ -41,17 +41,18 @@ public class PalladiumHammer extends Hammer {
         int widht = radius * 2 + 1;
 
         if (Screen.hasShiftDown()) {
-            textConsumer.accept(Text.translatable("tooltip.immersiveores.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
-            textConsumer.accept(Text.translatable("tooltip.immersiveores.immunetofire.tooltip").formatted(Formatting.DARK_AQUA));
-            Text text = Text.literal("Dig area: ")
+            textConsumer.accept(Text.translatable("tooltip.mecharp.unbreakable").formatted(Formatting.DARK_AQUA));
+            textConsumer.accept(Text.translatable("tooltip.mecharp.immune_to_fire").formatted(Formatting.DARK_AQUA));
+
+            Text text = Text.translatable("tooltip.mecharp.dig_area")
                     .formatted(Formatting.DARK_AQUA)
-                    .append(Text.literal(widht + "x1").formatted(Formatting.YELLOW));
+                    .append(Text.literal(widht + "x3" + "x1").formatted(Formatting.YELLOW));
 
             textConsumer.accept(text);
 
             super.appendTooltip(stack, context, tooltip, textConsumer, options);
         } else {
-            textConsumer.accept(Text.translatable("tooltip.immersiveores.pressshiftformoreinfo.tooltip").formatted(Formatting.DARK_AQUA));
+            textConsumer.accept(Text.translatable("tooltip.mecharp.press_shift").formatted(Formatting.DARK_AQUA));
         }
     }
 

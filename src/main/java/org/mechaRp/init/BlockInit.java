@@ -120,6 +120,15 @@ public class BlockInit {
                     .requiresTool(),
             true
     );
+    public static final Block ASBESTIT_ORE_BLOCK = register(
+            "asbestit_ore",
+            settings -> new Block(settings),
+            AbstractBlock.Settings.create()
+                    .strength(3.5f, 7.0f)
+                    .sounds(BlockSoundGroup.METAL)
+                    .requiresTool(),
+            true
+    );
 
 
 

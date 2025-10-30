@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": "mecharp:magmarium",
+    "S": "mecharp:iron_stick"
+  },
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mecharp:magmarium_shovel"
+  }
+}

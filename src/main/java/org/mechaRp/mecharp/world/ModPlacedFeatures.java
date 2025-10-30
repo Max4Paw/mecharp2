@@ -23,6 +23,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> PLATINUM_ORE_PLACED = registerKey("platinum_ore_placed");
     public static final RegistryKey<PlacedFeature> PALLADIUM_ORE_PLACED = registerKey("palladium_ore_placed");
     public static final RegistryKey<PlacedFeature> MAGMARIUM_ORE_PLACED = registerKey("magmarium_ore_placed");
+    public static final RegistryKey<PlacedFeature> ASBESTIT_ORE_PLACED = registerKey("asbestit_ore_placed");
 
 
 
@@ -54,6 +55,13 @@ public class ModPlacedFeatures {
                 new PlacedFeature(
                         configured.getOrThrow(ModConfiguredFeatures.MAGMARIUM_ORE),
                         orePlacement(6, 22, 119)
+                )
+        );
+        context.register(
+                ASBESTIT_ORE_PLACED,
+                new PlacedFeature(
+                        configured.getOrThrow(ModConfiguredFeatures.ASBESTIT_ORE),
+                        orePlacement(5, 22, 119)
                 )
         );
     }

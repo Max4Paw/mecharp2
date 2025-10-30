@@ -47,8 +47,10 @@ public class OreBlockGroup {
             entries.add(BlockInit.DEEPSLATE_SILVER_ORE_BLOCK);
             entries.add(BlockInit.MAGMARIUM_ORE_BLOCK);
             entries.add(ModItems.MAGMARIUM);
-            entries.add(ModItems.MAGMARIUM_ORE_MATERIAL
-            );
+            entries.add(ModItems.MAGMARIUM_ORE_MATERIAL);
+            entries.add(ModItems.ASBESTIT_ORE_MATERIAL);
+            entries.add(ModItems.ASBESTIT);
+            entries.add(BlockInit.ASBESTIT_ORE_BLOCK);
            // entries.add(BlockInit.);
 //            // Добавьте другие предметы при необходимости
         });

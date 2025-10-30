@@ -61,6 +61,41 @@ public class Hammer extends Item {
         return positions;
     }
 
+    public static List<BlockPos> getBlocksToBeDestroyed3D(int range, BlockPos initalBlockPos, ServerPlayerEntity player) {
+        List<BlockPos> positions = new ArrayList<>();
+        HitResult hit = player.raycast(20, 0, false);
+        if (hit.getType() == HitResult.Type.BLOCK) {
+            BlockHitResult blockHit = (BlockHitResult) hit;
+            Direction side = blockHit.getSide();
+
+            // Направление вглубь - противоположное стороне удара
+            Direction direction = side.getOpposite();
+
+            // Получаем два направления, образующие плоскость перпендикулярную side
+            Direction[] planeDirections = getPlaneDirections(side);
+
+            for (int i = -range; i <= range; i++) {
+                for (int j = -range; j <= range; j++) {
+                    for (int k = 0; k <= range * 2; k++) {
+                        BlockPos pos = initalBlockPos.offset(planeDirections[0], i)
+                                .offset(planeDirections[1], j)
+                                .offset(direction, k);
+                        positions.add(pos);
+                    }
+                }
+            }
+        }
+
+        return positions;
+    }
+    private static Direction[] getPlaneDirections(Direction side) {
+        return switch (side) {
+            case UP, DOWN -> new Direction[]{Direction.EAST, Direction.NORTH};
+            case NORTH, SOUTH -> new Direction[]{Direction.EAST, Direction.UP};
+            case EAST, WEST -> new Direction[]{Direction.NORTH, Direction.UP};
+        };
+    }
+
     private static ToolMaterial wrapMaterial(ToolMaterial toolMaterial, int durability) {
         return new ToolMaterial(
                 toolMaterial.incorrectBlocksForDrops(),

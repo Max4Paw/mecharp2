@@ -1,0 +1,6 @@
+{
+  "mecharp:wthit": {
+    "initializer": "org.mechaRp.mecharp.imp.client.compat.WthitCompatibility",
+    "side": "client"
+  }
+}

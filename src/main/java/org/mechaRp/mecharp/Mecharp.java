@@ -2,9 +2,11 @@ package org.mechaRp.mecharp;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import org.mechaRp.init.BlockInit;
+import org.mechaRp.mecharp.config.AsbestitConfig;
 import org.mechaRp.mecharp.config.MagmariumConfig;
 import org.mechaRp.mecharp.config.PalladiumConfig;
 import org.mechaRp.mecharp.entity.ModEntities;
@@ -15,6 +17,8 @@ import org.mechaRp.mecharp.boss.BossEvents;
 import org.mechaRp.mecharp.command.BankCardCommands;
 import org.mechaRp.mecharp.item.ModItems;
 
+import org.mechaRp.mecharp.util.tools.hammer.ModEventsMagmariumHammer;
+import org.mechaRp.mecharp.util.tools.hammer.ModEventsPalladiumHammer;
 import org.mechaRp.mecharp.world.ModFeatures;
 import org.mechaRp.mecharp.world.ModOreGeneration;
 import org.mechaRp.mecharp.world.gen.ModWorldGeneration;
@@ -35,6 +39,7 @@ public class Mecharp implements ModInitializer {
         LOGGER.info("Начало инициализации мода MechaRP...");
         PalladiumConfig.registerConfigs();
         MagmariumConfig.registerConfigs();
+        AsbestitConfig.registerConfigs();
 
         // 1. Сначала регистрируем компоненты данных
         //  MyDataComponents.register();
@@ -81,6 +86,10 @@ public class Mecharp implements ModInitializer {
         // 9. Генерация мира (должна быть после регистрации структур)
         ModFeatures.initialize();
         LOGGER.info("Генерация мира настроена");
+
+
+        PlayerBlockBreakEvents.BEFORE.register(new ModEventsMagmariumHammer());
+        PlayerBlockBreakEvents.BEFORE.register(new ModEventsPalladiumHammer());
 
         // Отладочная информация
         LOGGER.info("=== ДЕБАГ ИНФОРМАЦИЯ ===");

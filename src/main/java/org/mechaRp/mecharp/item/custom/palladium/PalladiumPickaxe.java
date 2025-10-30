@@ -14,17 +14,16 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Unit;
 import org.mechaRp.mecharp.config.PalladiumConfig;
-
 import java.util.function.Consumer;
 
 public class PalladiumPickaxe extends Item {
     private static TagKey<Block> pickaxeMineable;
 
-    public PalladiumPickaxe(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
+    public PalladiumPickaxe (ToolMaterial material, float attackDamage, float attackSpeed, Item.Settings settings) {
         super(computeSettings(material, BlockTags.PICKAXE_MINEABLE, settings, attackDamage, attackSpeed, PalladiumConfig.unbreakablePalladium, PalladiumConfig.durabilityPalladium));
     }
 
-    private static Settings computeSettings(ToolMaterial material, TagKey<Block> pickaxeMineable, Settings settings, float attackDamage, float attackSpeed, boolean unbreakable, int durability) {
+    private static Item.Settings computeSettings(ToolMaterial material, TagKey<Block> pickaxeMineable, Item.Settings settings, float attackDamage, float attackSpeed, boolean unbreakable, int durability) {
         PalladiumPickaxe.pickaxeMineable = pickaxeMineable;
         settings.pickaxe(wrapMaterial(material, material.durability()), attackDamage, attackSpeed).maxDamage(durability);
         if (unbreakable) {
@@ -49,7 +48,7 @@ public class PalladiumPickaxe extends Item {
     }
 
     @Override
-    public void appendTooltip(ItemStack stack, TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+    public void appendTooltip(ItemStack stack, Item.TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
         super.appendTooltip(stack, context, displayComponent, textConsumer, type);
         if(Screen.hasShiftDown()) {
             textConsumer.accept(Text.translatable("tooltip.mecharp.unbreakble.tooltip").formatted(Formatting.DARK_AQUA));
@@ -58,6 +57,4 @@ public class PalladiumPickaxe extends Item {
             textConsumer.accept(Text.translatable("tooltip.mecharp.pressshiftformoreinfo.tooltip").formatted(Formatting.DARK_AQUA));
         }
     }
-
-
 }

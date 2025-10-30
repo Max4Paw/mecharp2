@@ -19,6 +19,9 @@ public class MRPGen implements DataGeneratorEntrypoint {
         pack.addProvider(FabricDocsReferenceRecipeProvider::new);
         pack.addProvider(FabricDocsReferenceItemTagProvider::new);
         pack.addProvider(ModRegistryDataGenerator::new);
+        pack.addProvider(ModEnglishLanguageProvider::new);
+        pack.addProvider(ModRussianLanguageProvider::new);
+        pack.addProvider(ModAdvancementProvider::new);
         DataGenerator.Pack secondaryPack = fabricDataGenerator.createPack();
         secondaryPack.addProvider(ModEquipmentAssetProvider::new);
     }

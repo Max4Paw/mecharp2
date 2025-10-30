@@ -1,0 +1,48 @@
+{
+  "parent": "mecharp:root",
+  "criteria": {
+    "has_palladium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:palladium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_palladium_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:palladium_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "light_purple",
+      "translate": "advancement.revivalrp.palladiumtools.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mecharp:palladium_pickaxe"
+    },
+    "title": {
+      "color": "light_purple",
+      "translate": "advancement.revivalrp.palladiumtools.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_palladium_pickaxe"
+    ],
+    [
+      "has_palladium_sword"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

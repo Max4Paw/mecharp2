@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 4900,
+  "experience": 1.7,
+  "group": "asbestit",
+  "ingredient": "mecharp:asbestit_ore_material",
+  "result": {
+    "id": "mecharp:asbestit"
+  }
+}

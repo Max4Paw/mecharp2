@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 6000,
+  "experience": 1.7,
+  "group": "asbestit",
+  "ingredient": "mecharp:asbestit_ore_material",
+  "result": {
+    "id": "mecharp:asbestit"
+  }
+}

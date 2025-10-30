@@ -1,0 +1,48 @@
+{
+  "parent": "mecharp:magmarium",
+  "criteria": {
+    "has_magmarium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:magmarium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magmarium_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mecharp:magmarium_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "red",
+      "translate": "advancement.revivalrp.magmariumtools.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mecharp:magmarium_pickaxe"
+    },
+    "title": {
+      "color": "red",
+      "translate": "advancement.revivalrp.magmariumtools.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_magmarium_pickaxe"
+    ],
+    [
+      "has_magmarium_sword"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,4 +1,5 @@
 // 1.21.8	-999999999-01-01T00:00:00	RevivalRp/Block Loot Tables
+bfd75b1bcd41a044579610d64bdd7f8f48e068fc data/mecharp/loot_table/blocks/asbestit_ore.json
 7ead8483f7f9992e492a69043f6e45feac20e4ef data/mecharp/loot_table/blocks/bronze_ore.json
 fffd5e42ba259f38c56f3e0fe8df92d78e77b34d data/mecharp/loot_table/blocks/deepslate_bronze_ore.json
 df5ff8d2e278ab7daf0e54b382e8ac2faa88bf1b data/mecharp/loot_table/blocks/deepslate_palladium_ore.json

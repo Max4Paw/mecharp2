@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "mecharp:palladium_axe",
+    "P": "mecharp:palladium_pickaxe",
+    "S": "mecharp:palladium_shovel"
+  },
+  "pattern": [
+    "PS ",
+    "A  ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mecharp:palladium_paxel"
+  }
+}

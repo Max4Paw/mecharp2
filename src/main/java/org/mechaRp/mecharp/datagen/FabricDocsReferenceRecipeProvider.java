@@ -34,6 +34,7 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
                 List<ItemConvertible> platinumSmeltables = List.of(ModItems.PLATINUM_ORE_MATERIAL);
                 List<ItemConvertible> palladiumSmeltables = List.of(ModItems.PALLADIUM_ORE_MATERIAL);
                 List<ItemConvertible> magmariumSmeltables = List.of(ModItems.MAGMARIUM_ORE_MATERIAL);
+                List<ItemConvertible> asbestitSmeltables = List.of(ModItems.ASBESTIT_ORE_MATERIAL);
 
 
                 // Генерация рецепта плавки
@@ -42,6 +43,7 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
                 offerSmelting(platinumSmeltables, RecipeCategory.MISC, ModItems.PLATINUM_COIN, 0.7f, 200, "platinum_coin");
                 offerSmelting(palladiumSmeltables, RecipeCategory.MISC, ModItems.PALLADIUM, 0.7f, 200, "palladium");
                 offerSmelting(magmariumSmeltables, RecipeCategory.MISC, ModItems.MAGMARIUM, 1.7f, 6000, "magmarium");
+                offerSmelting(asbestitSmeltables, RecipeCategory.MISC, ModItems.ASBESTIT, 1.7f, 6000, "asbestit");
 
 
                 // (Дополнительно можно добавить рецепт обжига в печи плавки, если хочешь)
@@ -50,8 +52,54 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
                 offerBlasting(platinumSmeltables, RecipeCategory.MISC, ModItems.PLATINUM_COIN, 0.7f, 100, "platinum_coin");
                 offerBlasting(palladiumSmeltables, RecipeCategory.MISC, ModItems.PALLADIUM, 0.7f, 100, "palladium");
                 offerBlasting(magmariumSmeltables, RecipeCategory.MISC, ModItems.MAGMARIUM, 1.7f, 4800, "magmarium");
+                offerBlasting(asbestitSmeltables, RecipeCategory.MISC, ModItems.ASBESTIT, 1.7f, 4900, "asbestit");
 
                 // крафты
+
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.MAGMARIUM_AXE)
+                        .pattern("MM ")
+                        .pattern("MS ")
+                        .pattern(" S ")
+                        .input('M', ModItems.MAGMARIUM)
+                        .input('S', ModItems.IRON_STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.MAGMARIUM_HOE)
+                        .pattern("MM ")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .input('M', ModItems.MAGMARIUM)
+                        .input('S', ModItems.IRON_STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.MAGMARIUM_SHOVEL)
+                        .pattern(" M ")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .input('M', ModItems.MAGMARIUM)
+                        .input('S', ModItems.IRON_STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.MAGMARIUM_HAMMER)
+                        .pattern("MMM")
+                        .pattern("MSM")
+                        .pattern(" S ")
+                        .input('M', ModItems.MAGMARIUM)
+                        .input('S', ModItems.IRON_STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.IRON_STICK)
+                        .pattern("   ")
+                        .pattern(" I ")
+                        .pattern(" I ")
+                        .input('I', Items.IRON_INGOT)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+
                 ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.PALLADIUM_PICKAXE)
                         .pattern("PPP")
                         .pattern(" S ")
@@ -60,6 +108,66 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
                         .input('S', Items.STICK)
                         .criterion("has_stick", conditionsFromItem(Items.STICK))
                         .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.PALLADIUM_AXE)
+                        .pattern("PP ")
+                        .pattern("PS ")
+                        .pattern(" S ")
+                        .input('P', ModItems.PALLADIUM)
+                        .input('S', Items.STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.PALLADIUM_HOE)
+                        .pattern("PP ")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .input('P', ModItems.PALLADIUM)
+                        .input('S', Items.STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.PALLADIUM_SHOVEL)
+                        .pattern(" P ")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .input('P', ModItems.PALLADIUM)
+                        .input('S', Items.STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.PALLADIUM_PAXEL)
+                        .pattern("PS ")
+                        .pattern("A  ")
+                        .pattern("   ")
+                        .input('P', ModItems.PALLADIUM_PICKAXE)
+                        .input('A', ModItems.PALLADIUM_AXE)
+                        .input('S', ModItems.PALLADIUM_SHOVEL)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.MAGMARIUM_PAXEL)
+                        .pattern("PS ")
+                        .pattern("A  ")
+                        .pattern("   ")
+                        .input('P', ModItems.MAGMARIUM_PICKAXE)
+                        .input('A', ModItems.MAGMARIUM_AXE)
+                        .input('S', ModItems.MAGMARIUM_SHOVEL)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.MAGMARIUM_PICKAXE)
+                        .pattern("MMM")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .input('M', ModItems.MAGMARIUM)
+                        .input('S', ModItems.IRON_STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.ASBESTIT_PICKAXE)
+                        .pattern("AAA")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .input('A', ModItems.ASBESTIT)
+                        .input('S', ModItems.IRON_STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+
                 ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.PALLADIUM_HAMMER)
                         .pattern("PPP")
                         .pattern("PSP")
@@ -75,6 +183,14 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
                         .pattern(" S ")
                         .input('P', ModItems.PALLADIUM)
                         .input('S', Items.STICK)
+                        .criterion("has_stick", conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.MAGMARIUM_SWORD)
+                        .pattern(" M ")
+                        .pattern(" M ")
+                        .pattern(" S ")
+                        .input('M', ModItems.MAGMARIUM)
+                        .input('S', ModItems.IRON_STICK)
                         .criterion("has_stick", conditionsFromItem(Items.STICK))
                         .offerTo(exporter);
 
@@ -95,6 +211,11 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
                         .input(ModItems.PALLADIUM_PICKAXE)
                         .criterion("has_palladium_pickaxe", conditionsFromItem(ModItems.PALLADIUM_PICKAXE))
                         .offerTo(exporter, Mecharp.id("palladium_pickaxe_repair").toString());
+                ShapelessRecipeJsonBuilder.create(Registries.ITEM,RecipeCategory.TOOLS,ModItems.MAGMARIUM_PICKAXE )
+                        .input(ModItems.MAGMARIUM_PICKAXE)
+                        .input(ModItems.MAGMARIUM_PICKAXE)
+                        .criterion("has_magmarium_pickaxe", conditionsFromItem(ModItems.MAGMARIUM_PICKAXE))
+                        .offerTo(exporter, Mecharp.id("magmarium_pickaxe_repair").toString());
 
                 ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.MAGMARIUM_BOOTS)
                         .pattern("   ")
@@ -131,12 +252,41 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
                         .input('N', Items.NETHER_STAR)
                         .criterion("magmarium", conditionsFromItem(ModItems.MAGMARIUM))
                         .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.PALLADIUM_CHESTPLATE)
+                        .pattern("P P")
+                        .pattern("PPP")
+                        .pattern("PPP")
+                        .input('P', ModItems.PALLADIUM)
+                        .criterion("palladium", conditionsFromItem(ModItems.PALLADIUM))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.PALLADIUM_HELMET)
+                        .pattern("PPP")
+                        .pattern("P P")
+                        .pattern("   ")
+                        .input('P', ModItems.PALLADIUM)
+                        .criterion("palladium", conditionsFromItem(ModItems.PALLADIUM))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.PALLADIUM_LEGGINGS)
+                        .pattern("PPP")
+                        .pattern("P P")
+                        .pattern("P P")
+                        .input('P', ModItems.PALLADIUM)
+                        .criterion("palladium", conditionsFromItem(ModItems.PALLADIUM))
+                        .offerTo(exporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.MISC, ModItems.PALLADIUM_BOOTS)
+                        .pattern("P P")
+                        .pattern("P P")
+                        .pattern("   ")
+                        .input('P', ModItems.PALLADIUM)
+                        .criterion("palladium", conditionsFromItem(ModItems.PALLADIUM))
+                        .offerTo(exporter);
+
 
 
             }
 
 
-            ;
+
         };
     }
 

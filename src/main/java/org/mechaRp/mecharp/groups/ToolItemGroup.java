@@ -28,10 +28,29 @@ public class ToolItemGroup {
 
     public static void registerToolItemGroups() {
         ItemGroupEvents.modifyEntriesEvent(TOOL_ITEM_KEY).register(entries -> {
+            // Asbestit инструменты
+            entries.add(ModItems.ASBESTIT_PICKAXE);
+
+            // Magmarium инструменты
+            entries.add(ModItems.MAGMARIUM_PICKAXE);
+            entries.add(ModItems.MAGMARIUM_AXE);
+            entries.add(ModItems.MAGMARIUM_SHOVEL);
+            entries.add(ModItems.MAGMARIUM_HOE);
+            entries.add(ModItems.MAGMARIUM_HAMMER);
+            entries.add(ModItems.MAGMARIUM_SWORD);
+            entries.add(ModItems.MAGMARIUM_PAXEL);
+
+            // Palladium инструменты
             entries.add(ModItems.PALLADIUM_PICKAXE);
+            entries.add(ModItems.PALLADIUM_AXE);
+            entries.add(ModItems.PALLADIUM_SHOVEL);
+            entries.add(ModItems.PALLADIUM_HOE);
+            entries.add(ModItems.PALLADIUM_HAMMER);
             entries.add(ModItems.PALLADIUM_SWORD);
             entries.add(ModItems.PALLADIUM_PAXEL);
-            entries.add(ModItems.PALLADIUM_HAMMER);
+
+            // Базовый материал для крафта инструментов
+            entries.add(ModItems.IRON_STICK);
 
         });
     }

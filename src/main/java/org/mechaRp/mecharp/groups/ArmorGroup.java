@@ -32,6 +32,10 @@ public class ArmorGroup {
             entries.add(ModItems.MAGMARIUM_CHESTPLATE);
             entries.add(ModItems.MAGMARIUM_HELMET);
             entries.add(ModItems.MAGMARIUM_LEGGINGS);
+            entries.add(ModItems.PALLADIUM_BOOTS);
+            entries.add(ModItems.PALLADIUM_LEGGINGS);
+            entries.add(ModItems.PALLADIUM_CHESTPLATE);
+            entries.add(ModItems.PALLADIUM_HELMET);
         });
     }
 }

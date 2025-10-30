@@ -8,6 +8,8 @@ import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import org.mechaRp.mecharp.Mecharp;
+import org.mechaRp.mecharp.item.ModItems;
+import org.mechaRp.mecharp.registry.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -41,6 +43,10 @@ public class FabricDocsReferenceItemTagProvider extends FabricTagProvider.ItemTa
                 .add(PALLADIUM_PICKAXE)
                 .add(PALLADIUM_PAXEL)
                 .add(PALLADIUM_HAMMER);
+
+        valueLookupBuilder(ModTags.Items.PALLADIUM_REPAIRS).add(ModItems.PALLADIUM);
+        valueLookupBuilder(ModTags.Items.MAGMARIUM_REPAIRS).add(ModItems.MAGMARIUM);
+        valueLookupBuilder(ModTags.Items.ASBESTIT_REPAIRS).add(ModItems.ASBESTIT);
 
 
     }

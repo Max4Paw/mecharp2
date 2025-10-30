@@ -46,6 +46,13 @@ public class ModOreGeneration {
         );
         LOGGER.info("[MechaRP] Руда MAGMARIUM добавлена в биомы!");
 
+        BiomeModifications.addFeature(
+                BiomeSelectors.foundInTheNether(),
+                GenerationStep.Feature.UNDERGROUND_ORES,
+                ModPlacedFeatures.ASBESTIT_ORE_PLACED
+        );
+        LOGGER.info("[MechaRP] Руда ASBESTIT добавлена в биомы!");
+
         LOGGER.info("[MechaRP] === Генерация руд завершена ===");
     }
 }

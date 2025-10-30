@@ -1,0 +1,435 @@
+{
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/bronze_coin_from_blasting_bronze_ore_material": {
+    "criteria": {
+      "has_bronze_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_smelting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/magmarium_leggings": {
+    "criteria": {
+      "magmarium": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/bronze_coin_from_smelting_bronze_ore_material": {
+    "criteria": {
+      "has_bronze_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/silver_coin_from_blasting_silver_ore_material": {
+    "criteria": {
+      "has_silver_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/platinum_coin_from_smelting_platinum_ore_material": {
+    "criteria": {
+      "has_platinum_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_from_smelting_palladium_ore_material": {
+    "criteria": {
+      "has_palladium_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/magmarium_chestplate": {
+    "criteria": {
+      "magmarium": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/asbestit_from_smelting_asbestit_ore_material": {
+    "criteria": {
+      "has_asbestit_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/magmarium_helmet": {
+    "criteria": {
+      "magmarium": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/magmarium_from_blasting_magmarium_ore_material": {
+    "criteria": {
+      "has_magmarium_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/palladium_from_blasting_palladium_ore_material": {
+    "criteria": {
+      "has_palladium_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/asbestit_from_blasting_asbestit_ore_material": {
+    "criteria": {
+      "has_asbestit_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/platinum_coin_from_blasting_platinum_ore_material": {
+    "criteria": {
+      "has_platinum_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/magmarium_from_smelting_magmarium_ore_material": {
+    "criteria": {
+      "has_magmarium_ore_material": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/tools/palladium_pickaxe_repair": {
+    "criteria": {
+      "has_palladium_pickaxe": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-10-19 00:50:13 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/tools/magmarium_pickaxe_repair": {
+    "criteria": {
+      "has_magmarium_pickaxe": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "mecharp:recipes/misc/magmarium_boots": {
+    "criteria": {
+      "magmarium": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-10-19 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

@@ -1,0 +1,285 @@
+[14:44:58] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[14:44:59] [main/INFO] (FabricLoader) Loading 59 mods:
+	- architectury 17.0.6
+	- badpackets 0.9.0
+	- cloth-basic-math 0.6.1
+	- cloth-config 19.0.147
+	- error_notifier 1.0.11
+	- fabric-api 0.131.0+1.21.8
+	- fabric-api-base 0.5.0+cd8c0daa2c
+	- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+	- fabric-biome-api-v1 16.0.11+946bf4c396
+	- fabric-block-api-v1 1.1.3+946bf4c396
+	- fabric-block-view-api-v2 1.0.31+946bf4c396
+	- fabric-client-gametest-api-v1 4.2.5+8a98c3fc2c
+	- fabric-command-api-v2 2.3.1+52fff9ec2c
+	- fabric-content-registries-v0 10.0.19+946bf4c32c
+	- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+	- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+	- fabric-crash-report-info-v1 0.3.15+946bf4c396
+	- fabric-data-attachment-api-v1 1.8.11+946bf4c32c
+	- fabric-data-generation-api-v1 23.2.6+0b1ef9762c
+	- fabric-dimensions-v1 4.0.19+946bf4c396
+	- fabric-entity-events-v1 2.1.2+c9e472732c
+	- fabric-events-interaction-v0 4.0.24+946bf4c32c
+	- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+	- fabric-gametest-api-v1 3.1.10+39ce47f52c
+	- fabric-item-api-v1 11.5.0+02ce13f42c
+	- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+	- fabric-key-binding-api-v1 1.0.65+946bf4c396
+	- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+	- fabric-loot-api-v2 3.0.56+3f89f5a52c
+	- fabric-loot-api-v3 2.0.3+946bf4c32c
+	- fabric-message-api-v1 6.1.2+946bf4c32c
+	- fabric-model-loading-api-v1 5.2.6+946bf4c32c
+	- fabric-networking-api-v1 5.0.2+946bf4c32c
+	- fabric-object-builder-api-v1 21.1.8+946bf4c32c
+	- fabric-particles-v1 4.1.8+946bf4c32c
+	- fabric-recipe-api-v1 8.1.15+946bf4c32c
+	- fabric-registry-sync-v0 6.1.28+946bf4c32c
+	- fabric-renderer-api-v1 7.0.3+208eed172c
+	- fabric-renderer-indigo 4.0.3+946bf4c32c
+	- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+	- fabric-rendering-v1 12.5.0+fbe231d52c
+	- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+	- fabric-resource-loader-v0 3.1.12+020423442c
+	- fabric-screen-api-v1 2.1.1+277ecf7d2c
+	- fabric-screen-handler-api-v1 1.3.137+946bf4c32c
+	- fabric-sound-api-v1 1.0.42+946bf4c396
+	- fabric-tag-api-v1 1.2.2+946bf4c32c
+	- fabric-transfer-api-v1 6.0.6+946bf4c32c
+	- fabric-transitive-access-wideners-v1 6.4.1+ac3e15d196
+	- fabricloader 0.17.2
+	- java 21
+	- mecharp 0.5.20
+	- minecraft 1.21.8
+	- mixinextras 0.5.0
+	- modmenu 15.0.0
+	   \-- placeholder-api 2.7.2+1.21.8
+	- playerabilitylib 1.14.0
+	- roughlyenoughitems 20.0.811
+	- wthit 16.0.1
+[14:45:05] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/maksi/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[14:45:05] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[14:45:05] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[14:45:07] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14:45:09] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 750 milliseconds
+[14:45:17] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:45:17] [Render thread/INFO] (Minecraft) Setting user: Player498
+[14:45:17] [Render thread/INFO] (mecharp) Начало инициализации мода MechaRP...
+[14:45:17] [Render thread/INFO] (mecharp) ✅ Предметы зарегистрированы (ModItems успешно инициализирован)
+[14:45:17] [Render thread/INFO] (mecharp) Предметы зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) Блоки зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) Блоки зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) Structures зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) Генерация структур настроена
+[14:45:17] [Render thread/INFO] (mecharp) Структуры зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) [MechaRP] === Запуск генерации руд ===
+[14:45:17] [Render thread/INFO] (mecharp) [MechaRP] Руда BRONZE добавлена в биомы!
+[14:45:17] [Render thread/INFO] (mecharp) [MechaRP] Руда SILVER добавлена в биомы!
+[14:45:17] [Render thread/INFO] (mecharp) [MechaRP] Руда PLATINUM добавлена в биомы!
+[14:45:17] [Render thread/INFO] (mecharp) [MechaRP] Руда PALLADIUM добавлена в биомы!
+[14:45:17] [Render thread/INFO] (mecharp) [MechaRP] Руда MAGMARIUM добавлена в биомы!
+[14:45:17] [Render thread/INFO] (mecharp) [MechaRP] Руда ASBESTIT добавлена в биомы!
+[14:45:17] [Render thread/INFO] (mecharp) [MechaRP] === Генерация руд завершена ===
+[14:45:17] [Render thread/INFO] (mecharp) Группы творческого режима зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) Registering Mod Entities for mecharp
+[14:45:17] [Render thread/INFO] (mecharp) Сущности зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) Экраны зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) События зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) Команды зарегистрированы
+[14:45:17] [Render thread/INFO] (mecharp) Registering Mod Features for mecharp
+[14:45:17] [Render thread/INFO] (mecharp) Генерация мира настроена
+[14:45:17] [Render thread/INFO] (mecharp) === ДЕБАГ ИНФОРМАЦИЯ ===
+[14:45:17] [Render thread/INFO] (mecharp) Проверка регистрации предметов:
+[14:45:17] [Render thread/INFO] (mecharp) bronze_ore_material: true
+[14:45:17] [Render thread/INFO] (mecharp) bronze_coin: true
+[14:45:17] [Render thread/INFO] (mecharp) Мод MechaRP успешно загружен!
+[14:45:17] [Render thread/INFO] (REI) [REI] Config loaded
+[14:45:17] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[14:45:17] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[14:45:17] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[14:45:17] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[14:45:17] [Render thread/INFO] (REI) [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[14:45:17] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:delete_item
+[14:45:17] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:create_item
+[14:45:17] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[14:45:17] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[14:45:17] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:move_items_new
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing plugin mecharp:wthit at org.mechaRp.mecharp.imp.client.compat.WthitCompatibility
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:core at mcp.mobius.waila.plugin.core.CoreClientPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaClientPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestClientPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricClientPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[14:45:18] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[14:45:18] [Render thread/INFO] (PluginConfig) [WTHIT] Plugin config reloaded
+[14:45:18] [Render thread/INFO] (Mod Menu/Update Checker) Checking mod updates...
+[14:45:18] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id architectury:spawn_entity_packet
+[14:45:18] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[14:45:18] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[14:45:18] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[14:45:18] [Render thread/INFO] (REI) [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[14:45:18] [Render thread/INFO] (REI) [REI] Registered plugin provider ReiRecipeAction [wthit] for REIClientPlugin
+[14:45:18] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id roughlyenoughitems:ci_msg
+[14:45:18] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[14:45:18] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id roughlyenoughitems:sync_displays
+[14:45:18] [ModMenu/Update Checker/Fabric Loader/INFO] (Mod Menu/Update Checker) Update available for 'fabricloader@0.17.2'
+[14:45:18] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[14:45:19] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[14:45:20] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, mecharp, modmenu, placeholder-api, playerabilitylib, roughlyenoughitems, wthit, file/FullBright 1.21.X.zip
+[14:45:20] [Render thread/WARN] (Minecraft) Non [a-z0-9_.-] character in namespace Texture-Packs.com.txt in pack E:\memods\mecharp2\run\resourcepacks\FullBright 1.21.X.zip, ignoring
+[14:45:20] [Render thread/WARN] (Minecraft) Non [a-z0-9_.-] character in namespace Texture-Packs.com.txt in pack E:\memods\mecharp2\run\resourcepacks\FullBright 1.21.X.zip, ignoring
+[14:45:20] [Worker-Main-6/WARN] (Minecraft) Invalid path in datapack: minecraft:shaders/core/Texture-Packs.com.txt, ignoring
+[14:45:20] [Worker-Main-6/WARN] (Minecraft) Invalid path in datapack: minecraft:shaders/include/Texture-Packs.com.txt, ignoring
+[14:45:20] [Worker-Main-6/WARN] (Minecraft) Invalid path in datapack: minecraft:shaders/Texture-Packs.com.txt, ignoring
+[14:45:20] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[14:45:20] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[14:45:21] [Worker-Main-2/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/oak_log:
+    minecraft:textures/atlas/blocks.png:mecharp:item/oak_log
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_blue:
+    minecraft:textures/atlas/blocks.png:mecharp:item/bank_card_blue
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_red:
+    minecraft:textures/atlas/blocks.png:mecharp:item/bank_card_red
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:block/magmarium_ore:
+    minecraft:textures/atlas/blocks.png:mecharp:block/magmarium_ore_bottom
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:block/leshy_boss_spawner:
+    minecraft:textures/atlas/blocks.png:mecharp:block/leshy_boss_spawner
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/a_fragment_of_the_earth:
+    minecraft:textures/atlas/blocks.png:mecharp:item/a_fragment_of_the_earth
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/bank_card_yellow:
+    minecraft:textures/atlas/blocks.png:mecharp:item/bank_card_yellow
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/earth_staff:
+    minecraft:textures/atlas/blocks.png:mecharp:item/earth_staff
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/earth_crystal:
+    minecraft:textures/atlas/blocks.png:mecharp:item/earth_crystal
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing textures in model mecharp:item/ancient_root:
+    minecraft:textures/atlas/blocks.png:mecharp:item/ancient_root
+[14:45:22] [Worker-Main-3/WARN] (Minecraft) Missing model for variant: 'Block{mecharp:bank_terminal}'
+[14:45:22] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
+[14:45:22] [Render thread/INFO] (Minecraft) Sound engine started
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:45:22] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[14:45:23] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:45:23] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:45:23] [Render thread/INFO] (Minecraft) Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[14:45:42] [Render thread/INFO] (Minecraft) Loaded 1447 recipes
+[14:45:42] [Render thread/INFO] (Minecraft) Loaded 1568 advancements
+[14:45:42] [Render thread/INFO] (BiomeModificationImpl) Applied 14 biome modifications to 6 of 65 new biomes in 8.186 ms
+[14:45:42] [Server thread/INFO] (PluginConfig) [WTHIT] Plugin config reloaded
+[14:45:42] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
+[14:45:42] [Server thread/INFO] (Minecraft) Generating keypair
+[14:45:43] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[14:45:43] [Render thread/INFO] (Minecraft) Подготовка области возрождения: 0%
+[14:45:43] [Render thread/INFO] (Minecraft) Time elapsed: 282 ms
+[14:45:43] [Server thread/WARN] (TranslationConventionLogWarnings) 
+	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
+	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
+	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
+	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
+	Default is `SHORT`.
+
+[14:45:43] [Server thread/INFO] (Minecraft) Changing view distance to 14, from 10
+[14:45:43] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing plugin mecharp:wthit at org.mechaRp.mecharp.imp.client.compat.WthitCompatibility
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:core at mcp.mobius.waila.plugin.core.CoreClientPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaClientPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestClientPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricClientPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[14:45:44] [Render thread/INFO] (PluginLoader) [WTHIT] Initializing client plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[14:45:44] [Render thread/INFO] (PluginConfig) [WTHIT] Plugin config reloaded
+[14:45:44] [Render thread/INFO] (ConfigSyncCommonS2CPacket) [WTHIT] Received config from the server: {"minecraft:attribute.horse_jump_height":true,"minecraft:bee.hive_occupants":true,"harvest:enabled":true,"minecraft:level.composter":true,"minecraft:effect.beacon":true,"minecraft:entity.armor":true,"minecraft:plant.tree_growable":true,"minecraft:attribute.horse_speed":true,"wailax:progress.enabled_entity":true,"minecraft:redstone.lever":true,"minecraft:entity.absorption":true,"minecraft:jukebox.record":true,"minecraft:effect.mob":true,"minecraft:book.bookshelf":true,"wailax:energy.enabled_entity":true,"wailax:fluid.enabled_block":true,"minecraft:plant.crop_growable":true,"minecraft:attribute.health":true,"minecraft:horse.jump_height":true,"minecraft:crop_growable":true,"wailax:item.nbt":true,"minecraft:entity.health":true,"minecraft:attribute.beacon_effects":true,"minecraft:plant.crop_progress":true,"minecraft:pet.owner":true,"minecraft:bee.hive_honey_level":true,"wailax:fluid.enabled_entity":true,"minecraft:timer.grow":true,"minecraft:bee.hive_pos":true,"minecraft:entity.item_entity":true,"minecraft:attribute.mob_effects":true,"minecraft:override.invisible_entity":true,"minecraft:spawner_type":true,"wailax:progress.enabled_block":true,"minecraft:note_block.type":true,"minecraft:tree_growable":true,"minecraft:override.infested":true,"wailax:item.enabled_entity":true,"minecraft:item_entity":true,"minecraft:breaking_progress.enabled":true,"minecraft:timer.breed":true,"minecraft:attribute.panda_genes":true,"minecraft:redstone.comparator":true,"wailax:item.enabled_block":true,"minecraft:spawner.type":true,"minecraft:override.trapped_chest":true,"minecraft:effect.hidden_mob":false,"minecraft:horse.speed":true,"minecraft:attribute.armor":true,"wailax:energy.enabled_block":true,"minecraft:attribute.absorption":true,"minecraft:redstone.level":true,"minecraft:level.honey":true,"minecraft:crop_progress":true,"minecraft:attribute.hidden_mob_effects":false,"minecraft:redstone.repeater":true,"minecraft:player_head.name":true,"minecraft:panda.genes":true,"minecraft:override.powder_snow":true}
+[14:45:44] [Server thread/INFO] (Minecraft) Player498[local:E:4bae7b3c] logged in with entity id 1 at (74.48147518099442, -61.0, -46.30000001192093)
+[14:45:45] [Server thread/INFO] (Minecraft) Player498 присоединился к игре
+[14:45:45] [Server thread/INFO] (Minecraft) Player498 получил достижение «[Магмариумовая броня]»
+[14:45:45] [Server thread/INFO] (Minecraft) Player498 получил достижение «[Каменный век]»
+[14:45:45] [Server thread/INFO] (Minecraft) Player498 получил достижение «[Особые магмариумовые инструменты]»
+[14:45:45] [Server thread/INFO] (Minecraft) Player498 получил достижение «[Палладиевые инструменты]»
+[14:45:45] [Render thread/WARN] (REI) [REI] Found 1 existing reload task(s) after trying to terminate them!
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] REICommonPlugin starting main-reload for START.
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (3):
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) FabricFluidAPISupportPlugin
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[14:45:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Player498 получил достижение «[Магмариумовая броня]»
+[14:45:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Player498 получил достижение «[Каменный век]»
+[14:45:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Player498 получил достижение «[Особые магмариумовые инструменты]»
+[14:45:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Player498 получил достижение «[Палладиевые инструменты]»
+[14:45:45] [Render thread/INFO] (Minecraft) Loaded 47 advancements
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] REIClientPlugin starting main-reload for START.
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (4):
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) ReiRecipeAction of ReiRecipeAction [wthit]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[14:45:45] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[14:45:45] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] REICommonPlugin finished post-reload for START in 3.073 ms, totaling 142.3 ms.
+[14:45:45] [REI-ReloadPlugins/INFO] (WailaClient) [WTHIT] Show recipe action set for Roughly Enough Items
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] REIClientPlugin finished post-reload for START in 1.889 ms, totaling 498.1 ms.
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] ========================================
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] REICommonPlugin starting main-reload for END.
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (3):
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) FabricFluidAPISupportPlugin
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] ========================================
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] ########################################
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] REIClientPlugin starting main-reload for END.
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (4):
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) ReiRecipeAction of ReiRecipeAction [wthit]
+[14:45:45] [REI-ReloadPlugins/INFO] (REI) [REI] ########################################
+[14:45:46] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[14:45:46] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[14:45:46] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[14:45:46] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[14:45:46] [REI-ReloadPlugins/INFO] (REI) [REI] REICommonPlugin finished post-reload for END in 660.9 μs, totaling 87.91 ms.
+[14:45:46] [REI-ReloadPlugins/INFO] (REI) [REI] REIClientPlugin finished post-reload for END in 2.443 ms, totaling 966.9 ms.
+[14:45:47] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[14:45:47] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[14:45:48] [Render thread/INFO] (REI) [REI] [REI Server Display Sync] Received server's request to set 1825 recipes.
+[14:45:48] [Render thread/WARN] (REI) [REI] Detected runtime DisplayRegistry modification, this can be extremely dangerous!
+[14:45:48] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[14:46:16] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[14:46:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[14:46:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[14:46:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[14:46:17] [Server thread/INFO] (Minecraft) Player498 lost connection: Отключение
+[14:46:17] [Server thread/INFO] (Minecraft) Player498 покинул игру
+[14:46:17] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[14:46:17] [Server thread/INFO] (Minecraft) Stopping server
+[14:46:17] [Server thread/INFO] (Minecraft) Saving players
+[14:46:17] [Server thread/INFO] (Minecraft) Saving worlds
+[14:46:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[14:46:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[14:46:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[14:46:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Новый мир (13)): All chunks are saved
+[14:46:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:46:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:46:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[14:46:23] [Render thread/INFO] (Minecraft) Stopping!
