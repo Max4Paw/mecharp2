@@ -10,11 +10,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.util.Identifier;
 import org.mechaRp.mecharp.Mecharp;
 import org.mechaRp.mecharp.block.BankTerminalBlock;
-import org.mechaRp.mecharp.block.CustomBlock;
 import org.mechaRp.mecharp.block.LeshyBossSpawnerBlock;
+import org.mechaRp.mecharp.block.WardrobeBlock;
 
 import java.util.function.Function;
 
@@ -139,6 +138,7 @@ public class BlockInit {
             AbstractBlock.Settings.create(),
             true
     );
+
     public static final Block LESHY_BOSS_SPAWNER = register("leshy_boss_spawner",
             LeshyBossSpawnerBlock::new,
             AbstractBlock.Settings.copy(Blocks.MOSSY_COBBLESTONE)
@@ -146,6 +146,16 @@ public class BlockInit {
                     .requiresTool()
                     .luminance(state -> 7),
             true // не забудьте добавить этот параметр
+    );
+
+    public static final Block WARDROBE = register(
+            "wardrobe",
+            WardrobeBlock::new,
+            AbstractBlock.Settings.create()
+                    .strength(2.5f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.WOOD),
+            true
     );
     public static void registerBlocks() {
         Mecharp.LOGGER.info("Блоки зарегистрированы");

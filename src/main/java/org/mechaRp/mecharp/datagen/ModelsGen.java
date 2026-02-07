@@ -31,11 +31,13 @@ public class ModelsGen extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.PALLADIUM_ORE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.PLATINUM_ORE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.SILVER_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockInit.WARDROBE);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         // ===== БАЗОВЫЕ МАТЕРИАЛЫ И РЕСУРСЫ =====
+
         itemModelGenerator.register(ModItems.ASBESTIT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ASBESTIT_ORE_MATERIAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.BRONZE_COIN, Models.GENERATED);

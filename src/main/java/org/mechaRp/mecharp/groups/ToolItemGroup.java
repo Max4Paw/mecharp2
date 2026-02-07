@@ -9,6 +9,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import org.mechaRp.init.BlockInit;
 import org.mechaRp.mecharp.Mecharp;
 import org.mechaRp.mecharp.item.ModItems;
 
@@ -51,6 +52,7 @@ public class ToolItemGroup {
 
             // Базовый материал для крафта инструментов
             entries.add(ModItems.IRON_STICK);
+            entries.add(BlockInit.WARDROBE);
 
         });
     }

@@ -1,5 +1,7 @@
 package org.mechaRp.mecharp.item;
 
+
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.Registries;
@@ -7,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import org.mechaRp.init.BlockInit;
 import org.mechaRp.mecharp.Mecharp;
 import org.mechaRp.mecharp.config.AsbestitConfig;
 import org.mechaRp.mecharp.config.MagmariumConfig;
@@ -189,7 +192,10 @@ public class ModItems {
     public static final Item EARTH_STAFF = register("earth_staff", Item::new, new Item.Settings().maxCount(1));
     public static final Item OAK_LOG = register("oak_log", Item::new, new Item.Settings().maxCount(1));
 
+
+
+
     public static void initialize() {
-        Mecharp.LOGGER.info("✅ Предметы зарегистрированы (ModItems успешно инициализирован)");
+
     }
 }

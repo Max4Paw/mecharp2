@@ -7,12 +7,17 @@ import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.util.Identifier;
 import org.mechaRp.mecharp.Mecharp;
 import org.mechaRp.mecharp.screen.BankTerminalScreenHandler;
+import org.mechaRp.mecharp.screen.MyWardrobeScreenHandler;
 
 public class ModScreenHandlers {
     public static final ScreenHandlerType<BankTerminalScreenHandler> BANK_TERMINAL =
             new ScreenHandlerType<>(BankTerminalScreenHandler::new, FeatureFlags.VANILLA_FEATURES);
 
+    public static final ScreenHandlerType<MyWardrobeScreenHandler> WARDROBE =
+            new ScreenHandlerType<>(MyWardrobeScreenHandler::new, FeatureFlags.VANILLA_FEATURES);
+
     public static void registerScreenHandlers() {
         Registry.register(Registries.SCREEN_HANDLER, Identifier.of(Mecharp.MOD_ID, "bank_terminal"), BANK_TERMINAL);
+        Registry.register(Registries.SCREEN_HANDLER, Identifier.of(Mecharp.MOD_ID, "wardrobe"), WARDROBE);
     }
 }

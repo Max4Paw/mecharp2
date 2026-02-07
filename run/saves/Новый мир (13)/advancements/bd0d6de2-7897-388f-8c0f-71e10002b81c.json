@@ -281,12 +281,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2025-10-18 05:24:00 +0300"
-    },
-    "done": false
-  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2025-10-18 05:23:59 +0300"
@@ -344,6 +338,27 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2025-10-18 05:23:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-10-18 05:24:00 +0300"
+    },
+    "done": false
+  },
+  "mecharp:magmariumtools": {
+    "criteria": {
+      "has_magmarium_sword": "2025-11-03 20:30:51 +0300"
+    },
+    "done": false
+  },
+  "mecharp:magmariumarmor": {
+    "criteria": {
+      "has_magmarium_boots": "2025-11-03 20:30:51 +0300",
+      "has_magmarium_helmet": "2025-11-03 20:30:51 +0300",
+      "has_magmarium_chestplate": "2025-11-03 20:30:51 +0300",
+      "has_magmarium_leggings": "2025-11-03 20:30:51 +0300"
     },
     "done": true
   },

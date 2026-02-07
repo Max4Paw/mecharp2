@@ -382,12 +382,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2025-10-19 03:47:31 +0300"
-    },
-    "done": false
-  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2025-10-19 03:47:30 +0300"
@@ -450,9 +444,10 @@
   },
   "mecharp:palladiumtools": {
     "criteria": {
-      "has_palladium_pickaxe": "2025-10-19 03:47:30 +0300"
+      "has_palladium_pickaxe": "2025-10-19 03:47:30 +0300",
+      "has_palladium_sword": "2025-11-03 17:37:37 +0300"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
@@ -463,6 +458,45 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2025-10-19 03:47:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-10-19 03:47:31 +0300"
+    },
+    "done": false
+  },
+  "mecharp:magmariumarmor": {
+    "criteria": {
+      "has_magmarium_boots": "2025-11-03 17:37:37 +0300",
+      "has_magmarium_helmet": "2025-11-03 17:37:37 +0300",
+      "has_magmarium_chestplate": "2025-11-03 17:37:37 +0300",
+      "has_magmarium_leggings": "2025-11-03 17:37:37 +0300"
+    },
+    "done": true
+  },
+  "mecharp:magmariumspecialtools": {
+    "criteria": {
+      "has_magmarium_hammer": "2025-11-03 17:37:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-11-03 17:37:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-11-03 17:37:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-11-03 17:37:37 +0300"
     },
     "done": true
   },
